@@ -1,0 +1,11 @@
+{
+    "name": "cfc/repositories",
+    "homepage": "https://packagist.cfc.to/",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/cfc-theme.git"
+        }
+    ],
+    "require-all": true
+}

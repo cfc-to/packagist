@@ -1,0 +1,30 @@
+name: Build static satis page
+
+on:
+  push:
+    branches:
+      - main
+  repository_dispatch:
+    types: [satis]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup and build satis
+        env:
+          AUTH_JSON: '{"github-oauth": {"github.com": "${{ secrets.COMPOSER_TOKEN }}"}}'
+        run: |
+          if [ ! -d composer ]; then mkdir composer; fi
+          echo "$AUTH_JSON" > composer/auth.json
+          docker run --rm -i -v ${{ github.workspace }}:/build -v ${{ github.workspace }}/composer:/composer composer/satis build satis.json output
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: output
