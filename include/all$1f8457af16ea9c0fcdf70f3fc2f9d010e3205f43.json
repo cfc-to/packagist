@@ -90,55 +90,6 @@
             }
         },
         "cfc/codex-client": {
-            "dev-chore/packagist": {
-                "name": "cfc/codex-client",
-                "version": "dev-chore/packagist",
-                "version_normalized": "dev-chore/packagist",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/codex-php-client.git",
-                    "reference": "a046aef0f05beef64b8b96ea8974c4107afa3c40"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/a046aef0f05beef64b8b96ea8974c4107afa3c40",
-                    "reference": "a046aef0f05beef64b8b96ea8974c4107afa3c40",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": ">=8.2"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-3": "^7.6",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2024-03-28T16:29:12+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Codex\\Api\\": "generated/",
-                        "Cfc\\Codex\\": "src/",
-                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Codex\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/codex-php-client/tree/chore/packagist",
-                    "issues": "https://github.com/cfc-to/codex-php-client/issues"
-                }
-            },
             "dev-main": {
                 "name": "cfc/codex-client",
                 "version": "dev-main",
@@ -146,12 +97,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/codex-php-client.git",
-                    "reference": "ce56d29b05c7962577f0288fcf01cd4823cf61b1"
+                    "reference": "13f8d7d03893c5922abdaac4981bdc2ebdad4e75"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/ce56d29b05c7962577f0288fcf01cd4823cf61b1",
-                    "reference": "ce56d29b05c7962577f0288fcf01cd4823cf61b1",
+                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/13f8d7d03893c5922abdaac4981bdc2ebdad4e75",
+                    "reference": "13f8d7d03893c5922abdaac4981bdc2ebdad4e75",
                     "shasum": ""
                 },
                 "require": {
@@ -166,7 +117,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-02-08T11:30:18+00:00",
+                "time": "2024-03-28T16:31:15+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
