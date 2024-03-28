@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$7f49eea1bc34b911bd9526e10e925bcfffaac00e.json": {
+            "sha1": "7f49eea1bc34b911bd9526e10e925bcfffaac00e"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "cfc/cfc-theme"
+    ]
+}
