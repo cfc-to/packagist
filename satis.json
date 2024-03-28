@@ -5,6 +5,26 @@
         {
             "type": "vcs",
             "url": "git@github.com:cfc-to/cfc-theme.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/electre-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/hermes-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/codex-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/yellowbox-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/directory-php-client.git"
         }
     ],
     "require-all": true
