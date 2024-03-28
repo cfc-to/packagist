@@ -1,0 +1,787 @@
+{
+    "packages": {
+        "cfc/cfc-theme": {
+            "dev-main": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "c9c8fb2f74ac5b0db38c7091dc05cc25c6c44675"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/c9c8fb2f74ac5b0db38c7091dc05cc25c6c44675",
+                    "reference": "c9c8fb2f74ac5b0db38c7091dc05cc25c6c44675",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3",
+                    "sylius/theme-bundle": "^2.3"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/asset": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/debug-bundle": "6.4.*",
+                    "symfony/dotenv": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-foundation": "6.4.*",
+                    "symfony/routing": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/twig-bundle": "6.4.*",
+                    "symfony/web-profiler-bundle": "6.4.*",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2024-03-28T15:30:41+00:00",
+                "default-branch": true,
+                "type": "monofony-theme",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/main",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            }
+        },
+        "cfc/codex-client": {
+            "dev-feat/upgrate_php_83": {
+                "name": "cfc/codex-client",
+                "version": "dev-feat/upgrate_php_83",
+                "version_normalized": "dev-feat/upgrate_php_83",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/codex-php-client.git",
+                    "reference": "7bf4d120fadcc1ca36581bb65ed7c5e8e52c6c3b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/7bf4d120fadcc1ca36581bb65ed7c5e8e52c6c3b",
+                    "reference": "7bf4d120fadcc1ca36581bb65ed7c5e8e52c6c3b",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T14:50:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Api\\": "generated/",
+                        "Cfc\\Codex\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/codex-php-client/tree/feat/upgrate_php_83",
+                    "issues": "https://github.com/cfc-to/codex-php-client/issues"
+                }
+            },
+            "dev-feat/upgrate_rector": {
+                "name": "cfc/codex-client",
+                "version": "dev-feat/upgrate_rector",
+                "version_normalized": "dev-feat/upgrate_rector",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/codex-php-client.git",
+                    "reference": "6a39aa201a53f6fe8f93a70b2e18d7b1e673575b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/6a39aa201a53f6fe8f93a70b2e18d7b1e673575b",
+                    "reference": "6a39aa201a53f6fe8f93a70b2e18d7b1e673575b",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-08T10:49:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Api\\": "generated/",
+                        "Cfc\\Codex\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/codex-php-client/tree/feat/upgrate_rector",
+                    "issues": "https://github.com/cfc-to/codex-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/codex-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/codex-php-client.git",
+                    "reference": "ce56d29b05c7962577f0288fcf01cd4823cf61b1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/ce56d29b05c7962577f0288fcf01cd4823cf61b1",
+                    "reference": "ce56d29b05c7962577f0288fcf01cd4823cf61b1",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-08T11:30:18+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Api\\": "generated/",
+                        "Cfc\\Codex\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/codex-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/codex-php-client/issues"
+                }
+            }
+        },
+        "cfc/directory-client": {
+            "dev-feat/upgrate_php_83": {
+                "name": "cfc/directory-client",
+                "version": "dev-feat/upgrate_php_83",
+                "version_normalized": "dev-feat/upgrate_php_83",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "410f6f4af520f714b8db5ee5796ad1e5e2521809"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/410f6f4af520f714b8db5ee5796ad1e5e2521809",
+                    "reference": "410f6f4af520f714b8db5ee5796ad1e5e2521809",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-06T16:57:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/feat/upgrate_php_83",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            },
+            "dev-feat/upgrate_rector": {
+                "name": "cfc/directory-client",
+                "version": "dev-feat/upgrate_rector",
+                "version_normalized": "dev-feat/upgrate_rector",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "71ffd0c093546dcdd8420034292789961e48a43f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/71ffd0c093546dcdd8420034292789961e48a43f",
+                    "reference": "71ffd0c093546dcdd8420034292789961e48a43f",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-08T11:14:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/feat/upgrate_rector",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/directory-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "ec75f949552e57bb263f12be331ed781068cf9d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/ec75f949552e57bb263f12be331ed781068cf9d3",
+                    "reference": "ec75f949552e57bb263f12be331ed781068cf9d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T09:58:17+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            }
+        },
+        "cfc/electre-client": {
+            "dev-chore/client": {
+                "name": "cfc/electre-client",
+                "version": "dev-chore/client",
+                "version_normalized": "dev-chore/client",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "6e38508795401e93a34dc003bd8176f77579ed7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/6e38508795401e93a34dc003bd8176f77579ed7d",
+                    "reference": "6e38508795401e93a34dc003bd8176f77579ed7d",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T14:45:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/chore/client",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            },
+            "dev-feat/upgrate_php_83": {
+                "name": "cfc/electre-client",
+                "version": "dev-feat/upgrate_php_83",
+                "version_normalized": "dev-feat/upgrate_php_83",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "4787ae4b6689f23d1bb53fdd5c8be1eb7182cb31"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/4787ae4b6689f23d1bb53fdd5c8be1eb7182cb31",
+                    "reference": "4787ae4b6689f23d1bb53fdd5c8be1eb7182cb31",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T09:55:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/feat/upgrate_php_83",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/electre-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "ac221ca9c15b21927a3cc050066789ad2f2eb20e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/ac221ca9c15b21927a3cc050066789ad2f2eb20e",
+                    "reference": "ac221ca9c15b21927a3cc050066789ad2f2eb20e",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-03-26T11:09:07+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/",
+                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            }
+        },
+        "cfc/hermes-client": {
+            "dev-feat-first-generation": {
+                "name": "cfc/hermes-client",
+                "version": "dev-feat-first-generation",
+                "version_normalized": "dev-feat-first-generation",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/hermes-php-client.git",
+                    "reference": "9ea7d499cafc67feb0287dec04e990334364e4c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/9ea7d499cafc67feb0287dec04e990334364e4c1",
+                    "reference": "9ea7d499cafc67feb0287dec04e990334364e4c1",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.19",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-03-18T04:33:25+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Api\\": "generated/",
+                        "Cfc\\Hermes\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/hermes-php-client/tree/feat-first-generation",
+                    "issues": "https://github.com/cfc-to/hermes-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/hermes-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/hermes-php-client.git",
+                    "reference": "04eaf53efff37f6fb791a3e64add97b84c234360"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/04eaf53efff37f6fb791a3e64add97b84c234360",
+                    "reference": "04eaf53efff37f6fb791a3e64add97b84c234360",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-16T09:43:42+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Api\\": "generated/",
+                        "Cfc\\Hermes\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/hermes-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/hermes-php-client/issues"
+                }
+            }
+        },
+        "cfc/yellowbox-client": {
+            "dev-chore/client": {
+                "name": "cfc/yellowbox-client",
+                "version": "dev-chore/client",
+                "version_normalized": "dev-chore/client",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
+                    "reference": "92bcb1dd9da664b0bfb8ac6d6b4907cd99afdecf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/92bcb1dd9da664b0bfb8ac6d6b4907cd99afdecf",
+                    "reference": "92bcb1dd9da664b0bfb8ac6d6b4907cd99afdecf",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T14:56:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Api\\": "generated/",
+                        "Cfc\\Yellowbox\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/chore/client",
+                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
+                }
+            },
+            "dev-feat/upgrate_dependencies": {
+                "name": "cfc/yellowbox-client",
+                "version": "dev-feat/upgrate_dependencies",
+                "version_normalized": "dev-feat/upgrate_dependencies",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
+                    "reference": "6b45331ae5786ceaa77cde77abe7e71eb01ce84a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/6b45331ae5786ceaa77cde77abe7e71eb01ce84a",
+                    "reference": "6b45331ae5786ceaa77cde77abe7e71eb01ce84a",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-08T11:29:14+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Api\\": "generated/",
+                        "Cfc\\Yellowbox\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/feat/upgrate_dependencies",
+                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/yellowbox-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
+                    "reference": "cecebf6c140a3f0aa57917cf0a4693598b93ccbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/cecebf6c140a3f0aa57917cf0a4693598b93ccbf",
+                    "reference": "cecebf6c140a3f0aa57917cf0a4693598b93ccbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T14:57:16+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Api\\": "generated/",
+                        "Cfc\\Yellowbox\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
+                }
+            }
+        }
+    }
+}

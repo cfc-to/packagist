@@ -1,12 +1,17 @@
 {
     "packages": [],
     "includes": {
-        "include/all$022de1c99de6aa9484e3cdf1dfe57aa43cc24d7e.json": {
-            "sha1": "022de1c99de6aa9484e3cdf1dfe57aa43cc24d7e"
+        "include/all$bed4bd3a2c123f90af7aac9e041a7a10974097fe.json": {
+            "sha1": "bed4bd3a2c123f90af7aac9e041a7a10974097fe"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
-        "cfc/cfc-theme"
+        "cfc/cfc-theme",
+        "cfc/codex-client",
+        "cfc/directory-client",
+        "cfc/electre-client",
+        "cfc/hermes-client",
+        "cfc/yellowbox-client"
     ]
 }

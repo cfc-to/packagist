@@ -1,0 +1,154 @@
+{
+    "packages": {
+        "cfc/directory-client": [
+            {
+                "name": "cfc/directory-client",
+                "version": "dev-feat/upgrate_php_83",
+                "version_normalized": "dev-feat/upgrate_php_83",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "410f6f4af520f714b8db5ee5796ad1e5e2521809"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/410f6f4af520f714b8db5ee5796ad1e5e2521809",
+                    "reference": "410f6f4af520f714b8db5ee5796ad1e5e2521809",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-06T16:57:26+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/feat/upgrate_php_83",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            },
+            {
+                "name": "cfc/directory-client",
+                "version": "dev-feat/upgrate_rector",
+                "version_normalized": "dev-feat/upgrate_rector",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "71ffd0c093546dcdd8420034292789961e48a43f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/71ffd0c093546dcdd8420034292789961e48a43f",
+                    "reference": "71ffd0c093546dcdd8420034292789961e48a43f",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-08T11:14:34+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/feat/upgrate_rector",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            },
+            {
+                "name": "cfc/directory-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "ec75f949552e57bb263f12be331ed781068cf9d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/ec75f949552e57bb263f12be331ed781068cf9d3",
+                    "reference": "ec75f949552e57bb263f12be331ed781068cf9d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.18.11",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-02-07T09:58:17+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            }
+        ]
+    }
+}
