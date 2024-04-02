@@ -25,6 +25,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:cfc-to/directory-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/MonoMakerBundle.git"
         }
     ],
     "require-all": true
