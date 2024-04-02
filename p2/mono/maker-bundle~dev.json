@@ -1,0 +1,86 @@
+{
+    "packages": {
+        "mono/maker-bundle": [
+            {
+                "name": "mono/maker-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/MonoMakerBundle.git",
+                    "reference": "96aca2d6af4facf6b2f821999c0ddac6de463f68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/MonoMakerBundle/zipball/96aca2d6af4facf6b2f821999c0ddac6de463f68",
+                    "reference": "96aca2d6af4facf6b2f821999c0ddac6de463f68",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3",
+                    "symfony/form": "6.4.*",
+                    "symfony/messenger": "6.4.*",
+                    "symfony/property-access": "6.4.*",
+                    "symfony/validator": "6.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^4.0",
+                    "doctrine/doctrine-bundle": "^2.12",
+                    "doctrine/orm": "^3.1",
+                    "doctrine/persistence": "^3.3",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/config": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/dependency-injection": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/maker-bundle": "^1.50",
+                    "symfony/process": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/string": "6.4.*",
+                    "symfony/yaml": "6.4.*",
+                    "webmozart/assert": "^1.11"
+                },
+                "time": "2024-04-02T08:25:27+00:00",
+                "default-branch": true,
+                "type": "bundle",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Mono\\MakerBundle\\": "src/",
+                        "App\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/MonoMakerBundle/tree/main",
+                    "issues": "https://github.com/cfc-to/MonoMakerBundle/issues"
+                }
+            }
+        ]
+    }
+}

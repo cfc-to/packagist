@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$b112c9f7b1625dbb67505a8e7388f7cdf82e6d9b.json": {
-            "sha1": "b112c9f7b1625dbb67505a8e7388f7cdf82e6d9b"
+        "include/all$7b3427d676eac9e6a70a33e9839c12fb59ef1bce.json": {
+            "sha1": "7b3427d676eac9e6a70a33e9839c12fb59ef1bce"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -12,6 +12,7 @@
         "cfc/directory-client",
         "cfc/electre-client",
         "cfc/hermes-client",
-        "cfc/yellowbox-client"
+        "cfc/yellowbox-client",
+        "mono/maker-bundle"
     ]
 }
