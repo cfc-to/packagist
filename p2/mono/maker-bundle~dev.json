@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/MonoMakerBundle.git",
-                    "reference": "335a09d7a3f9896234023e9015da8eece547f54b"
+                    "reference": "1667206444c4dbdc2fb979d7ce16918c6cd61d5d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/MonoMakerBundle/zipball/335a09d7a3f9896234023e9015da8eece547f54b",
-                    "reference": "335a09d7a3f9896234023e9015da8eece547f54b",
+                    "url": "https://api.github.com/repos/cfc-to/MonoMakerBundle/zipball/1667206444c4dbdc2fb979d7ce16918c6cd61d5d",
+                    "reference": "1667206444c4dbdc2fb979d7ce16918c6cd61d5d",
                     "shasum": ""
                 },
                 "require": {
@@ -53,7 +53,7 @@
                     "symfony/yaml": "6.4.*",
                     "webmozart/assert": "^1.11"
                 },
-                "time": "2024-04-02T09:10:13+00:00",
+                "time": "2024-04-02T20:34:13+00:00",
                 "default-branch": true,
                 "type": "bundle",
                 "extra": {
