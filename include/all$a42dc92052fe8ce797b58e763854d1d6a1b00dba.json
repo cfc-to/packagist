@@ -403,12 +403,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/MonoMakerBundle.git",
-                    "reference": "5f59f59f04002c324160196df13dbf21f8312096"
+                    "reference": "335a09d7a3f9896234023e9015da8eece547f54b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/MonoMakerBundle/zipball/5f59f59f04002c324160196df13dbf21f8312096",
-                    "reference": "5f59f59f04002c324160196df13dbf21f8312096",
+                    "url": "https://api.github.com/repos/cfc-to/MonoMakerBundle/zipball/335a09d7a3f9896234023e9015da8eece547f54b",
+                    "reference": "335a09d7a3f9896234023e9015da8eece547f54b",
                     "shasum": ""
                 },
                 "require": {
@@ -448,7 +448,7 @@
                     "symfony/yaml": "6.4.*",
                     "webmozart/assert": "^1.11"
                 },
-                "time": "2024-04-02T08:31:25+00:00",
+                "time": "2024-04-02T09:10:13+00:00",
                 "default-branch": true,
                 "type": "bundle",
                 "extra": {
@@ -456,12 +456,16 @@
                         "require": "6.4.*"
                     }
                 },
+                "autoload": {
+                    "psr-4": {
+                        "Mono\\MakerBundle\\": "src/"
+                    }
+                },
                 "autoload-dev": {
                     "classmap": [
                         "tests/Application/src/Kernel.php"
                     ],
                     "psr-4": {
-                        "Mono\\MakerBundle\\": "src/",
                         "App\\": "tests/Application/src/"
                     }
                 },
