@@ -1,6 +1,92 @@
 {
     "packages": {
         "cfc/cfc-theme": {
+            "dev-feat/add_coponents": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-feat/add_coponents",
+                "version_normalized": "dev-feat/add_coponents",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "8b4b9c4fa5463549ff488a05d03bac8d3354d49b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/8b4b9c4fa5463549ff488a05d03bac8d3354d49b",
+                    "reference": "8b4b9c4fa5463549ff488a05d03bac8d3354d49b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3",
+                    "sylius/theme-bundle": "^2.3"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/asset": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/debug-bundle": "6.4.*",
+                    "symfony/dotenv": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-foundation": "6.4.*",
+                    "symfony/routing": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/twig-bundle": "6.4.*",
+                    "symfony/web-profiler-bundle": "6.4.*",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2024-04-03T12:22:13+00:00",
+                "type": "monofony-theme",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/add_coponents",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            },
             "dev-main": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-main",
@@ -194,55 +280,6 @@
             }
         },
         "cfc/electre-client": {
-            "dev-feat/authentication": {
-                "name": "cfc/electre-client",
-                "version": "dev-feat/authentication",
-                "version_normalized": "dev-feat/authentication",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "b2772040c5165b036e508cb7f764240fb061244f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/b2772040c5165b036e508cb7f764240fb061244f",
-                    "reference": "b2772040c5165b036e508cb7f764240fb061244f",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": "^8.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-2": "^7.5",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2024-04-02T16:27:28+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Api\\": "generated/",
-                        "Cfc\\Electre\\": "src/",
-                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/electre-php-client/tree/feat/authentication",
-                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
-                }
-            },
             "dev-main": {
                 "name": "cfc/electre-client",
                 "version": "dev-main",
@@ -250,12 +287,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "aa84a82081ef4f5eeb64d455daaa7262e79ab317"
+                    "reference": "5924f86334109a39b6b78d7013fb51f0c73e4255"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/aa84a82081ef4f5eeb64d455daaa7262e79ab317",
-                    "reference": "aa84a82081ef4f5eeb64d455daaa7262e79ab317",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/5924f86334109a39b6b78d7013fb51f0c73e4255",
+                    "reference": "5924f86334109a39b6b78d7013fb51f0c73e4255",
                     "shasum": ""
                 },
                 "require": {
@@ -270,7 +307,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-03-28T16:17:45+00:00",
+                "time": "2024-04-03T15:26:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
