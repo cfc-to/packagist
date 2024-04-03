@@ -280,55 +280,6 @@
             }
         },
         "cfc/electre-client": {
-            "dev-fix/override-normalizer": {
-                "name": "cfc/electre-client",
-                "version": "dev-fix/override-normalizer",
-                "version_normalized": "dev-fix/override-normalizer",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "5164315058463d7c58bb1e65240f7984162e7385"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/5164315058463d7c58bb1e65240f7984162e7385",
-                    "reference": "5164315058463d7c58bb1e65240f7984162e7385",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": "^8.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-2": "^7.5",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2024-04-03T15:34:17+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Api\\": "generated/",
-                        "Cfc\\Electre\\": "src/",
-                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/electre-php-client/tree/fix/override-normalizer",
-                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
-                }
-            },
             "dev-main": {
                 "name": "cfc/electre-client",
                 "version": "dev-main",
@@ -336,12 +287,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "5924f86334109a39b6b78d7013fb51f0c73e4255"
+                    "reference": "72c0f943bdd5e0314b522fad67bca137539bfc43"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/5924f86334109a39b6b78d7013fb51f0c73e4255",
-                    "reference": "5924f86334109a39b6b78d7013fb51f0c73e4255",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/72c0f943bdd5e0314b522fad67bca137539bfc43",
+                    "reference": "72c0f943bdd5e0314b522fad67bca137539bfc43",
                     "shasum": ""
                 },
                 "require": {
@@ -356,7 +307,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-04-03T15:26:13+00:00",
+                "time": "2024-04-03T19:02:18+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
