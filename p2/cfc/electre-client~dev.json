@@ -3,6 +3,55 @@
         "cfc/electre-client": [
             {
                 "name": "cfc/electre-client",
+                "version": "dev-fix-get-notice-update",
+                "version_normalized": "dev-fix-get-notice-update",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "833c832b21006c4ddb6b7bdc3b437374a29a77a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/833c832b21006c4ddb6b7bdc3b437374a29a77a5",
+                    "reference": "833c832b21006c4ddb6b7bdc3b437374a29a77a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-04-09T15:38:23+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/",
+                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/fix-get-notice-update",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            },
+            {
+                "name": "cfc/electre-client",
                 "version": "dev-main",
                 "version_normalized": "dev-main",
                 "source": {
