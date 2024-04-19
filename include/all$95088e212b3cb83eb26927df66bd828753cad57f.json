@@ -87,10 +87,10 @@
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
-            "dev-feat/release_16": {
+            "dev-feat/release_17": {
                 "name": "cfc/cfc-theme",
-                "version": "dev-feat/release_16",
-                "version_normalized": "dev-feat/release_16",
+                "version": "dev-feat/release_17",
+                "version_normalized": "dev-feat/release_17",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
@@ -169,7 +169,7 @@
                     }
                 },
                 "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/release_16",
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/release_17",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
