@@ -3,66 +3,17 @@
         "cfc/electre-client": [
             {
                 "name": "cfc/electre-client",
-                "version": "dev-fix/auteurs",
-                "version_normalized": "dev-fix/auteurs",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "34d0486b70e30f943765745fd607d93af77849a0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/34d0486b70e30f943765745fd607d93af77849a0",
-                    "reference": "34d0486b70e30f943765745fd607d93af77849a0",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": "^8.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-2": "^7.5",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2024-04-22T09:10:16+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Api\\": "generated/",
-                        "Cfc\\Electre\\": "src/",
-                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/electre-php-client/tree/fix/auteurs",
-                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
-                }
-            },
-            {
-                "name": "cfc/electre-client",
                 "version": "dev-main",
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "dbe2b10c1ba5e6c4dc25c807f635eddfca96e5a9"
+                    "reference": "e1d2b36fee461a4c5fa52c5c3db922ef158d477f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/dbe2b10c1ba5e6c4dc25c807f635eddfca96e5a9",
-                    "reference": "dbe2b10c1ba5e6c4dc25c807f635eddfca96e5a9",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/e1d2b36fee461a4c5fa52c5c3db922ef158d477f",
+                    "reference": "e1d2b36fee461a4c5fa52c5c3db922ef158d477f",
                     "shasum": ""
                 },
                 "require": {
@@ -77,7 +28,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-04-12T13:40:45+00:00",
+                "time": "2024-04-22T09:17:16+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
