@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "616612fc7bf6c5f3d57ab03bfbf8cc1b51c67b5c"
+                    "reference": "34d0486b70e30f943765745fd607d93af77849a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/616612fc7bf6c5f3d57ab03bfbf8cc1b51c67b5c",
-                    "reference": "616612fc7bf6c5f3d57ab03bfbf8cc1b51c67b5c",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/34d0486b70e30f943765745fd607d93af77849a0",
+                    "reference": "34d0486b70e30f943765745fd607d93af77849a0",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-04-20T06:41:45+00:00",
+                "time": "2024-04-22T09:10:16+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
