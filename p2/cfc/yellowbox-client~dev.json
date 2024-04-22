@@ -3,65 +3,17 @@
         "cfc/yellowbox-client": [
             {
                 "name": "cfc/yellowbox-client",
-                "version": "dev-fix/duplicate_function_in_client",
-                "version_normalized": "dev-fix/duplicate_function_in_client",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
-                    "reference": "a1fbd3d08b2693070468b323a5279c9acd7d7330"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/a1fbd3d08b2693070468b323a5279c9acd7d7330",
-                    "reference": "a1fbd3d08b2693070468b323a5279c9acd7d7330",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": "^8.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-2": "^7.5",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2024-04-18T08:22:44+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Yellowbox\\Api\\": "generated/",
-                        "Cfc\\Yellowbox\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Yellowbox\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/fix/duplicate_function_in_client",
-                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
-                }
-            },
-            {
-                "name": "cfc/yellowbox-client",
                 "version": "dev-main",
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/yellowbox-php-client.git",
-                    "reference": "a505db820b82e86de6958ef14acde49f47b812d5"
+                    "reference": "407b62b696c3e30dc0de48a88a7e0f5aefb8c599"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/a505db820b82e86de6958ef14acde49f47b812d5",
-                    "reference": "a505db820b82e86de6958ef14acde49f47b812d5",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/407b62b696c3e30dc0de48a88a7e0f5aefb8c599",
+                    "reference": "407b62b696c3e30dc0de48a88a7e0f5aefb8c599",
                     "shasum": ""
                 },
                 "require": {
@@ -76,7 +28,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-03-28T16:10:25+00:00",
+                "time": "2024-04-22T08:42:36+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
