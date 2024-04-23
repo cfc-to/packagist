@@ -538,6 +538,56 @@
             }
         },
         "cfc/electre-client": {
+            "dev-fix/default-value-generation": {
+                "name": "cfc/electre-client",
+                "version": "dev-fix/default-value-generation",
+                "version_normalized": "dev-fix/default-value-generation",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "c8f528f11516098ea294e70bcaffbe77b4c5e61e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/c8f528f11516098ea294e70bcaffbe77b4c5e61e",
+                    "reference": "c8f528f11516098ea294e70bcaffbe77b4c5e61e",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-04-23T15:01:14+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/",
+                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/",
+                        "Jane\\Component\\OpenApi2\\JsonSchema\\Normalizer\\": "jane/Component/OpenApi2/JsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/fix/default-value-generation",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            },
             "dev-main": {
                 "name": "cfc/electre-client",
                 "version": "dev-main",
