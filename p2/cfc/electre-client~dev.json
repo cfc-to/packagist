@@ -3,17 +3,17 @@
         "cfc/electre-client": [
             {
                 "name": "cfc/electre-client",
-                "version": "dev-fix/default-value-generation",
-                "version_normalized": "dev-fix/default-value-generation",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "f32a2b1cab47fbf9a20e859cef02777c69fd049d"
+                    "reference": "e6af71fc4235d24d377957b2ed7b7c4d62b0732f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/f32a2b1cab47fbf9a20e859cef02777c69fd049d",
-                    "reference": "f32a2b1cab47fbf9a20e859cef02777c69fd049d",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/e6af71fc4235d24d377957b2ed7b7c4d62b0732f",
+                    "reference": "e6af71fc4235d24d377957b2ed7b7c4d62b0732f",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,8 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-04-23T15:10:41+00:00",
+                "time": "2024-04-24T08:22:17+00:00",
+                "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -36,56 +37,6 @@
                         "Cfc\\Electre\\": "src/",
                         "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/",
                         "Jane\\Component\\OpenApi2\\JsonSchema\\Normalizer\\": "jane/Component/OpenApi2/JsonSchema/Normalizer/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/electre-php-client/tree/fix/default-value-generation",
-                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
-                }
-            },
-            {
-                "name": "cfc/electre-client",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/electre-php-client.git",
-                    "reference": "e1d2b36fee461a4c5fa52c5c3db922ef158d477f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/e1d2b36fee461a4c5fa52c5c3db922ef158d477f",
-                    "reference": "e1d2b36fee461a4c5fa52c5c3db922ef158d477f",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": "^8.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-2": "^7.5",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2024-04-22T09:17:16+00:00",
-                "default-branch": true,
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Electre\\Api\\": "generated/",
-                        "Cfc\\Electre\\": "src/",
-                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/"
                     }
                 },
                 "autoload-dev": {
