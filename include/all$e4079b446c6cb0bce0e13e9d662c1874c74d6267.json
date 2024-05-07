@@ -524,12 +524,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "3283094a3d146e78e1b0e9207a2067a1e359d6e2"
+                    "reference": "1ef38008b331a4da70b197b421ccd619853ee78f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/3283094a3d146e78e1b0e9207a2067a1e359d6e2",
-                    "reference": "3283094a3d146e78e1b0e9207a2067a1e359d6e2",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/1ef38008b331a4da70b197b421ccd619853ee78f",
+                    "reference": "1ef38008b331a4da70b197b421ccd619853ee78f",
                     "shasum": ""
                 },
                 "require": {
@@ -564,7 +564,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-05-06T08:09:28+00:00",
+                "time": "2024-05-07T08:10:10+00:00",
                 "default-branch": true,
                 "type": "monofony-theme",
                 "extra": {
