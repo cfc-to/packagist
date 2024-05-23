@@ -882,12 +882,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "666d87ccafe8685c4dbb50e9d2a763a2a05977ab"
+                    "reference": "d696343cc4fe7932dab2b5d67eecce043fe0ccba"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/666d87ccafe8685c4dbb50e9d2a763a2a05977ab",
-                    "reference": "666d87ccafe8685c4dbb50e9d2a763a2a05977ab",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/d696343cc4fe7932dab2b5d67eecce043fe0ccba",
+                    "reference": "d696343cc4fe7932dab2b5d67eecce043fe0ccba",
                     "shasum": ""
                 },
                 "require": {
@@ -924,7 +924,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-05-23T13:50:58+00:00",
+                "time": "2024-05-23T13:54:40+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
@@ -975,12 +975,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "e93d1907aa39b7ae1ea71e0bd8b4cb2d8dfd1ff6"
+                    "reference": "4d34eae61635f0c6729fe4ff058f4fd94076d6b4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/e93d1907aa39b7ae1ea71e0bd8b4cb2d8dfd1ff6",
-                    "reference": "e93d1907aa39b7ae1ea71e0bd8b4cb2d8dfd1ff6",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/4d34eae61635f0c6729fe4ff058f4fd94076d6b4",
+                    "reference": "4d34eae61635f0c6729fe4ff058f4fd94076d6b4",
                     "shasum": ""
                 },
                 "require": {
@@ -1017,7 +1017,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-05-23T09:26:01+00:00",
+                "time": "2024-05-23T13:55:12+00:00",
                 "default-branch": true,
                 "type": "monofony-theme",
                 "extra": {
