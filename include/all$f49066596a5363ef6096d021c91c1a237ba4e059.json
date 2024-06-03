@@ -1534,18 +1534,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "339964b459cd03c3c171306dfd964b2b2cb1c343"
+                    "reference": "a8cb2a7a796ba380c32e390ad7d5fb2ef3060310"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/339964b459cd03c3c171306dfd964b2b2cb1c343",
-                    "reference": "339964b459cd03c3c171306dfd964b2b2cb1c343",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/a8cb2a7a796ba380c32e390ad7d5fb2ef3060310",
+                    "reference": "a8cb2a7a796ba380c32e390ad7d5fb2ef3060310",
                     "shasum": ""
                 },
                 "require": {
                     "knplabs/knp-menu-bundle": "^3.4",
                     "php": ">=8.3",
-                    "sylius/theme-bundle": "^2.3"
+                    "sylius/theme-bundle": "^2.3",
+                    "symfony/validator": "^7.1"
                 },
                 "replace": {
                     "symfony/polyfill-ctype": "*",
@@ -1576,7 +1577,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-05-31T12:07:53+00:00",
+                "time": "2024-06-03T08:55:20+00:00",
                 "default-branch": true,
                 "type": "monofony-theme",
                 "extra": {
