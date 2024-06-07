@@ -29,6 +29,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:cfc-to/MonoMakerBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/erp-php-client.git"
         }
     ],
     "require-all": true
