@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/hermes-php-client.git",
-                    "reference": "36ab6386c353384e1bc6e31d6c40d6b6f834b4ba"
+                    "reference": "524578fdcfa3d6577f4e7de5ae31d3766174f287"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/36ab6386c353384e1bc6e31d6c40d6b6f834b4ba",
-                    "reference": "36ab6386c353384e1bc6e31d6c40d6b6f834b4ba",
+                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/524578fdcfa3d6577f4e7de5ae31d3766174f287",
+                    "reference": "524578fdcfa3d6577f4e7de5ae31d3766174f287",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-06-11T14:17:39+00:00",
+                "time": "2024-06-13T11:45:33+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
