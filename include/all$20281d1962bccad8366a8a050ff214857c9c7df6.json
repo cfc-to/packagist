@@ -2313,12 +2313,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/yellowbox-php-client.git",
-                    "reference": "407b62b696c3e30dc0de48a88a7e0f5aefb8c599"
+                    "reference": "09a00016ff6957306a241264c909b6fcedc4f52b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/407b62b696c3e30dc0de48a88a7e0f5aefb8c599",
-                    "reference": "407b62b696c3e30dc0de48a88a7e0f5aefb8c599",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/09a00016ff6957306a241264c909b6fcedc4f52b",
+                    "reference": "09a00016ff6957306a241264c909b6fcedc4f52b",
                     "shasum": ""
                 },
                 "require": {
@@ -2333,7 +2333,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-04-22T08:42:36+00:00",
+                "time": "2024-06-18T20:39:05+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
