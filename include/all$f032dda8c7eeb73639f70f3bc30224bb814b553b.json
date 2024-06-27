@@ -1,0 +1,731 @@
+{
+    "packages": {
+        "cfc/cfc-theme": {
+            "dev-feat/update_cfctheme_release_29": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-feat/update_cfctheme_release_29",
+                "version_normalized": "dev-feat/update_cfctheme_release_29",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "b4e4d1e5751c344eb48721cf41ddbc8461e6da23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/b4e4d1e5751c344eb48721cf41ddbc8461e6da23",
+                    "reference": "b4e4d1e5751c344eb48721cf41ddbc8461e6da23",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": ">=8.3",
+                    "sylius/theme-bundle": "^2.3"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/asset": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/debug-bundle": "6.4.*",
+                    "symfony/dotenv": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-foundation": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/routing": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/twig-bundle": "6.4.*",
+                    "symfony/web-profiler-bundle": "6.4.*",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2024-05-31T11:52:45+00:00",
+                "type": "monofony-theme",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/update_cfctheme_release_29",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            },
+            "dev-fix/decoration": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-fix/decoration",
+                "version_normalized": "dev-fix/decoration",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "e45560aa2081b40b1c3528a0d595de804e2d844f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/e45560aa2081b40b1c3528a0d595de804e2d844f",
+                    "reference": "e45560aa2081b40b1c3528a0d595de804e2d844f",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": ">=8.3",
+                    "sylius/theme-bundle": "^2.3"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/asset": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/debug-bundle": "6.4.*",
+                    "symfony/dotenv": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-foundation": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/routing": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/twig-bundle": "6.4.*",
+                    "symfony/web-profiler-bundle": "6.4.*",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2024-05-15T09:47:29+00:00",
+                "type": "monofony-theme",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/decoration",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "3bad93d26087e2c034ed3900248f287086b69c88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/3bad93d26087e2c034ed3900248f287086b69c88",
+                    "reference": "3bad93d26087e2c034ed3900248f287086b69c88",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": ">=8.3",
+                    "sylius/theme-bundle": "^2.3",
+                    "symfony/validator": "^6.4"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/asset": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/debug-bundle": "6.4.*",
+                    "symfony/dotenv": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-foundation": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/routing": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/twig-bundle": "6.4.*",
+                    "symfony/web-profiler-bundle": "6.4.*",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "6.4.*"
+                },
+                "time": "2024-06-25T19:25:21+00:00",
+                "default-branch": true,
+                "type": "monofony-theme",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/main",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            }
+        },
+        "cfc/codex-client": {
+            "dev-main": {
+                "name": "cfc/codex-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/codex-php-client.git",
+                    "reference": "13f8d7d03893c5922abdaac4981bdc2ebdad4e75"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/13f8d7d03893c5922abdaac4981bdc2ebdad4e75",
+                    "reference": "13f8d7d03893c5922abdaac4981bdc2ebdad4e75",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-03-28T16:31:15+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Api\\": "generated/",
+                        "Cfc\\Codex\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/codex-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/codex-php-client/issues"
+                }
+            }
+        },
+        "cfc/directory-client": {
+            "dev-main": {
+                "name": "cfc/directory-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "302710f26097f602b45d2ece8acedf0f2dc4dd0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/302710f26097f602b45d2ece8acedf0f2dc4dd0c",
+                    "reference": "302710f26097f602b45d2ece8acedf0f2dc4dd0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-03-28T16:26:28+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
+            }
+        },
+        "cfc/electre-client": {
+            "dev-main": {
+                "name": "cfc/electre-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "e6af71fc4235d24d377957b2ed7b7c4d62b0732f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/e6af71fc4235d24d377957b2ed7b7c4d62b0732f",
+                    "reference": "e6af71fc4235d24d377957b2ed7b7c4d62b0732f",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-04-24T08:22:17+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/",
+                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/",
+                        "Jane\\Component\\OpenApi2\\JsonSchema\\Normalizer\\": "jane/Component/OpenApi2/JsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            }
+        },
+        "cfc/erp-client": {
+            "dev-main": {
+                "name": "cfc/erp-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/erp-php-client.git",
+                    "reference": "850783da86ac58704541cb56f684174e482ccad4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/850783da86ac58704541cb56f684174e482ccad4",
+                    "reference": "850783da86ac58704541cb56f684174e482ccad4",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-06-07T21:11:16+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/erp-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
+                }
+            }
+        },
+        "cfc/hermes-client": {
+            "dev-feat-generation-pipeline": {
+                "name": "cfc/hermes-client",
+                "version": "dev-feat-generation-pipeline",
+                "version_normalized": "dev-feat-generation-pipeline",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/hermes-php-client.git",
+                    "reference": "24b251c00ddc6bf12a1b4ef54f22ff86e3faa49a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/24b251c00ddc6bf12a1b4ef54f22ff86e3faa49a",
+                    "reference": "24b251c00ddc6bf12a1b4ef54f22ff86e3faa49a",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.19",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-06-27T09:45:38+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Api\\": "generated/",
+                        "Cfc\\Hermes\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/hermes-php-client/tree/feat-generation-pipeline",
+                    "issues": "https://github.com/cfc-to/hermes-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/hermes-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/hermes-php-client.git",
+                    "reference": "091d7864962e8ef365c14e72a8d6effeaf4de8f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/091d7864962e8ef365c14e72a8d6effeaf4de8f0",
+                    "reference": "091d7864962e8ef365c14e72a8d6effeaf4de8f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.19",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-06-11T12:51:46+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Api\\": "generated/",
+                        "Cfc\\Hermes\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/hermes-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/hermes-php-client/issues"
+                }
+            }
+        },
+        "cfc/yellowbox-client": {
+            "dev-main": {
+                "name": "cfc/yellowbox-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
+                    "reference": "09a00016ff6957306a241264c909b6fcedc4f52b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/09a00016ff6957306a241264c909b6fcedc4f52b",
+                    "reference": "09a00016ff6957306a241264c909b6fcedc4f52b",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-06-18T20:39:05+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Api\\": "generated/",
+                        "Cfc\\Yellowbox\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
+                }
+            }
+        },
+        "mono/maker-bundle": {
+            "dev-main": {
+                "name": "mono/maker-bundle",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/MonoMakerBundle.git",
+                    "reference": "1667206444c4dbdc2fb979d7ce16918c6cd61d5d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/MonoMakerBundle/zipball/1667206444c4dbdc2fb979d7ce16918c6cd61d5d",
+                    "reference": "1667206444c4dbdc2fb979d7ce16918c6cd61d5d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=8.3",
+                    "symfony/form": "6.4.*",
+                    "symfony/messenger": "6.4.*",
+                    "symfony/property-access": "6.4.*",
+                    "symfony/validator": "6.4.*"
+                },
+                "replace": {
+                    "symfony/polyfill-ctype": "*",
+                    "symfony/polyfill-iconv": "*",
+                    "symfony/polyfill-php72": "*",
+                    "symfony/polyfill-php73": "*",
+                    "symfony/polyfill-php74": "*",
+                    "symfony/polyfill-php80": "*",
+                    "symfony/polyfill-php81": "*"
+                },
+                "require-dev": {
+                    "doctrine/dbal": "^4.0",
+                    "doctrine/doctrine-bundle": "^2.12",
+                    "doctrine/orm": "^3.1",
+                    "doctrine/persistence": "^3.3",
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "symfony/config": "6.4.*",
+                    "symfony/console": "6.4.*",
+                    "symfony/dependency-injection": "6.4.*",
+                    "symfony/filesystem": "6.4.*",
+                    "symfony/finder": "6.4.*",
+                    "symfony/framework-bundle": "6.4.*",
+                    "symfony/http-kernel": "6.4.*",
+                    "symfony/maker-bundle": "^1.50",
+                    "symfony/process": "6.4.*",
+                    "symfony/runtime": "6.4.*",
+                    "symfony/string": "6.4.*",
+                    "symfony/yaml": "6.4.*",
+                    "webmozart/assert": "^1.11"
+                },
+                "time": "2024-04-02T20:34:13+00:00",
+                "default-branch": true,
+                "type": "bundle",
+                "extra": {
+                    "symfony": {
+                        "require": "6.4.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Mono\\MakerBundle\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "App\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/MonoMakerBundle/tree/main",
+                    "issues": "https://github.com/cfc-to/MonoMakerBundle/issues"
+                }
+            }
+        }
+    }
+}
