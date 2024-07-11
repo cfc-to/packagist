@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "90f7366c794189176dd9c23dec94ffe18245ad25"
+                    "reference": "9322e5a217e66fa834bbfed461b4c68fdd0f9b58"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/90f7366c794189176dd9c23dec94ffe18245ad25",
-                    "reference": "90f7366c794189176dd9c23dec94ffe18245ad25",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/9322e5a217e66fa834bbfed461b4c68fdd0f9b58",
+                    "reference": "9322e5a217e66fa834bbfed461b4c68fdd0f9b58",
                     "shasum": ""
                 },
                 "require": {
@@ -34,6 +34,7 @@
                 "require-dev": {
                     "ext-ctype": "*",
                     "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
                     "symfony/asset": "6.4.*",
                     "symfony/console": "6.4.*",
                     "symfony/debug-bundle": "6.4.*",
@@ -49,10 +50,9 @@
                     "symfony/twig-bundle": "6.4.*",
                     "symfony/web-profiler-bundle": "6.4.*",
                     "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "6.4.*",
-                    "vincentlanglet/twig-cs-fixer": "^2.11"
+                    "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-07-11T06:30:15+00:00",
+                "time": "2024-07-11T07:46:11+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
