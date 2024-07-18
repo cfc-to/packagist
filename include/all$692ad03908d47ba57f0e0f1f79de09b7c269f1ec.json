@@ -101,18 +101,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "e45560aa2081b40b1c3528a0d595de804e2d844f"
+                    "reference": "090c9554e8f5a553370c9ffec692141c8cf2449a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/e45560aa2081b40b1c3528a0d595de804e2d844f",
-                    "reference": "e45560aa2081b40b1c3528a0d595de804e2d844f",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/090c9554e8f5a553370c9ffec692141c8cf2449a",
+                    "reference": "090c9554e8f5a553370c9ffec692141c8cf2449a",
                     "shasum": ""
                 },
                 "require": {
                     "knplabs/knp-menu-bundle": "^3.4",
                     "php": ">=8.3",
-                    "sylius/theme-bundle": "^2.3"
+                    "sylius/theme-bundle": "^2.3",
+                    "symfony/validator": "^6.4"
                 },
                 "replace": {
                     "symfony/polyfill-ctype": "*",
@@ -126,6 +127,7 @@
                 "require-dev": {
                     "ext-ctype": "*",
                     "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
                     "symfony/asset": "6.4.*",
                     "symfony/console": "6.4.*",
                     "symfony/debug-bundle": "6.4.*",
@@ -143,7 +145,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-05-15T09:47:29+00:00",
+                "time": "2024-07-18T11:37:09+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
