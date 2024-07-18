@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "391603a9016b0bdde8df09588038a99af8caf04b"
+                    "reference": "1f3374ee42667163fbc452fcdccdd99a16c5c6d3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/391603a9016b0bdde8df09588038a99af8caf04b",
-                    "reference": "391603a9016b0bdde8df09588038a99af8caf04b",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/1f3374ee42667163fbc452fcdccdd99a16c5c6d3",
+                    "reference": "1f3374ee42667163fbc452fcdccdd99a16c5c6d3",
                     "shasum": ""
                 },
                 "require": {
@@ -34,6 +34,7 @@
                 "require-dev": {
                     "ext-ctype": "*",
                     "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
                     "symfony/asset": "6.4.*",
                     "symfony/console": "6.4.*",
                     "symfony/debug-bundle": "6.4.*",
@@ -51,7 +52,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-07-17T16:47:43+00:00",
+                "time": "2024-07-18T08:02:07+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
