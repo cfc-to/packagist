@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "fcefdac1e46beabbcd57ac058fd30e9ff6c3e5b0"
+                    "reference": "d3cc6e2b6b15cc516d6d69516ddc9622fbe3b026"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/fcefdac1e46beabbcd57ac058fd30e9ff6c3e5b0",
-                    "reference": "fcefdac1e46beabbcd57ac058fd30e9ff6c3e5b0",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/d3cc6e2b6b15cc516d6d69516ddc9622fbe3b026",
+                    "reference": "d3cc6e2b6b15cc516d6d69516ddc9622fbe3b026",
                     "shasum": ""
                 },
                 "require": {
@@ -52,7 +52,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-08-02T11:37:36+00:00",
+                "time": "2024-08-06T16:17:45+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
@@ -281,7 +281,7 @@
                     }
                 },
                 "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/change_cell_download",
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/main",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             }
