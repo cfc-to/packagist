@@ -94,101 +94,6 @@
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
-            "dev-fix/MNK-374": {
-                "name": "cfc/cfc-theme",
-                "version": "dev-fix/MNK-374",
-                "version_normalized": "dev-fix/MNK-374",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "a09e3e8234345c3aebf1889e7d076c3d9d41bcb5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/a09e3e8234345c3aebf1889e7d076c3d9d41bcb5",
-                    "reference": "a09e3e8234345c3aebf1889e7d076c3d9d41bcb5",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": ">=8.3",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4"
-                },
-                "replace": {
-                    "symfony/polyfill-ctype": "*",
-                    "symfony/polyfill-iconv": "*",
-                    "symfony/polyfill-php72": "*",
-                    "symfony/polyfill-php73": "*",
-                    "symfony/polyfill-php74": "*",
-                    "symfony/polyfill-php80": "*",
-                    "symfony/polyfill-php81": "*"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "6.4.*",
-                    "symfony/console": "6.4.*",
-                    "symfony/debug-bundle": "6.4.*",
-                    "symfony/dotenv": "6.4.*",
-                    "symfony/filesystem": "6.4.*",
-                    "symfony/finder": "6.4.*",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "6.4.*",
-                    "symfony/http-foundation": "6.4.*",
-                    "symfony/http-kernel": "6.4.*",
-                    "symfony/routing": "6.4.*",
-                    "symfony/runtime": "6.4.*",
-                    "symfony/twig-bundle": "6.4.*",
-                    "symfony/web-profiler-bundle": "6.4.*",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "6.4.*"
-                },
-                "time": "2024-08-07T10:42:30+00:00",
-                "type": "monofony-theme",
-                "extra": {
-                    "symfony": {
-                        "require": "6.4.*"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/MNK-374",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
             "dev-main": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-main",
@@ -196,12 +101,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "dfeadf68227e15d8f2e00ec8b8ec7045cce83607"
+                    "reference": "62a4bb5d78a573d11bd50f8925a9ec058667574f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/dfeadf68227e15d8f2e00ec8b8ec7045cce83607",
-                    "reference": "dfeadf68227e15d8f2e00ec8b8ec7045cce83607",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/62a4bb5d78a573d11bd50f8925a9ec058667574f",
+                    "reference": "62a4bb5d78a573d11bd50f8925a9ec058667574f",
                     "shasum": ""
                 },
                 "require": {
@@ -240,7 +145,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "6.4.*"
                 },
-                "time": "2024-08-06T16:34:43+00:00",
+                "time": "2024-08-07T10:43:10+00:00",
                 "default-branch": true,
                 "type": "monofony-theme",
                 "extra": {
