@@ -1,13 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$20110b2940efe606246470a203063875711a36e0.json": {
-            "sha1": "20110b2940efe606246470a203063875711a36e0"
+        "include/all$fce650edd300d08a5c8f07da1997ad0f05c3642b.json": {
+            "sha1": "fce650edd300d08a5c8f07da1997ad0f05c3642b"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "cfc/cfc-theme",
+        "cfc/chorus-php-client",
         "cfc/codex-client",
         "cfc/directory-client",
         "cfc/electre-client",

@@ -1,0 +1,103 @@
+{
+    "packages": {
+        "cfc/chorus-php-client": [
+            {
+                "name": "cfc/chorus-php-client",
+                "version": "dev-feat/first_generated",
+                "version_normalized": "dev-feat/first_generated",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/chorus-php-client.git",
+                    "reference": "587aed4539151ccc8541a660b7f8e6f801b8952e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/chorus-php-client/zipball/587aed4539151ccc8541a660b7f8e6f801b8952e",
+                    "reference": "587aed4539151ccc8541a660b7f8e6f801b8952e",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-09-11T10:22:38+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chorus\\Api\\": "generated/",
+                        "Chorus\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Chorus\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/chorus-php-client/tree/feat/first_generated",
+                    "issues": "https://github.com/cfc-to/chorus-php-client/issues"
+                }
+            },
+            {
+                "name": "cfc/chorus-php-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/chorus-php-client.git",
+                    "reference": "7f46e3904d3524cc5ddbe0b0cbe1b013558ca161"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/chorus-php-client/zipball/7f46e3904d3524cc5ddbe0b0cbe1b013558ca161",
+                    "reference": "7f46e3904d3524cc5ddbe0b0cbe1b013558ca161",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-09-11T10:37:35+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Chorus\\Api\\": "generated/",
+                        "Chorus\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Chorus\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/chorus-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/chorus-php-client/issues"
+                }
+            }
+        ]
+    }
+}
