@@ -688,6 +688,105 @@
                 }
             }
         },
+        "cfc/site-php-client": {
+            "dev-feat/first_generated": {
+                "name": "cfc/site-php-client",
+                "version": "dev-feat/first_generated",
+                "version_normalized": "dev-feat/first_generated",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/site-php-client.git",
+                    "reference": "7290baeddc69a8d74e4efda1894bde51e3199033"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/7290baeddc69a8d74e4efda1894bde51e3199033",
+                    "reference": "7290baeddc69a8d74e4efda1894bde51e3199033",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-09-09T13:31:44+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/site-php-client/tree/feat/first_generated",
+                    "issues": "https://github.com/cfc-to/site-php-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "cfc/site-php-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/site-php-client.git",
+                    "reference": "c0b894267e56f77769709e5d7eafefb4bf165465"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/c0b894267e56f77769709e5d7eafefb4bf165465",
+                    "reference": "c0b894267e56f77769709e5d7eafefb4bf165465",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-09-09T13:44:34+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/site-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/site-php-client/issues"
+                }
+            }
+        },
         "cfc/yellowbox-client": {
             "dev-main": {
                 "name": "cfc/yellowbox-client",
