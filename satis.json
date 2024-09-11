@@ -33,6 +33,14 @@
         {
             "type": "vcs",
             "url": "git@github.com:cfc-to/erp-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/site-php-client.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:cfc-to/chorus-php-client.git"
         }
     ],
     "require-all": true
