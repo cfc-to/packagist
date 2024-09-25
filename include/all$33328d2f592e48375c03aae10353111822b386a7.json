@@ -94,101 +94,6 @@
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
-            "dev-fix/missing-validator": {
-                "name": "cfc/cfc-theme",
-                "version": "dev-fix/missing-validator",
-                "version_normalized": "dev-fix/missing-validator",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "a50e3dd07fddf9ad78e6c074fdb37169e4637aa5"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/a50e3dd07fddf9ad78e6c074fdb37169e4637aa5",
-                    "reference": "a50e3dd07fddf9ad78e6c074fdb37169e4637aa5",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": ">=8.3",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4 || ^7.1"
-                },
-                "replace": {
-                    "symfony/polyfill-ctype": "*",
-                    "symfony/polyfill-iconv": "*",
-                    "symfony/polyfill-php72": "*",
-                    "symfony/polyfill-php73": "*",
-                    "symfony/polyfill-php74": "*",
-                    "symfony/polyfill-php80": "*",
-                    "symfony/polyfill-php81": "*"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "^6.4 || ^7.1",
-                    "symfony/console": "^6.4 || ^7.1",
-                    "symfony/debug-bundle": "^6.4 || ^7.1",
-                    "symfony/dotenv": "^6.4 || ^7.1",
-                    "symfony/filesystem": "^6.4 || ^7.1",
-                    "symfony/finder": "^6.4 || ^7.1",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "^6.4 || ^7.1",
-                    "symfony/http-foundation": "^6.4 || ^7.1",
-                    "symfony/http-kernel": "^6.4 || ^7.1",
-                    "symfony/routing": "^6.4 || ^7.1",
-                    "symfony/runtime": "^6.4 || ^7.1",
-                    "symfony/twig-bundle": "^6.4 || ^7.1",
-                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "^6.4 || ^7.1"
-                },
-                "time": "2024-09-25T15:59:54+00:00",
-                "type": "monofony-theme",
-                "extra": {
-                    "symfony": {
-                        "require": "^6.4 || ^7.1"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/missing-validator",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
             "dev-fix/pagination": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-fix/pagination",
@@ -386,19 +291,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "f8c750d8bea90f9956d399e4d32925e96c8df7f6"
+                    "reference": "6ebabff31c057ab21a2177f9ff52650b6f6f9597"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/f8c750d8bea90f9956d399e4d32925e96c8df7f6",
-                    "reference": "f8c750d8bea90f9956d399e4d32925e96c8df7f6",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/6ebabff31c057ab21a2177f9ff52650b6f6f9597",
+                    "reference": "6ebabff31c057ab21a2177f9ff52650b6f6f9597",
                     "shasum": ""
                 },
                 "require": {
                     "knplabs/knp-menu-bundle": "^3.4",
                     "php": ">=8.3",
                     "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4"
+                    "symfony/validator": "^6.4 || ^7.1"
                 },
                 "replace": {
                     "symfony/polyfill-ctype": "*",
@@ -430,7 +335,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2024-09-25T15:56:24+00:00",
+                "time": "2024-09-25T16:01:42+00:00",
                 "default-branch": true,
                 "type": "monofony-theme",
                 "extra": {
