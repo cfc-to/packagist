@@ -96,6 +96,92 @@
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
+            "dev-feat/CORP-217": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-feat/CORP-217",
+                "version_normalized": "dev-feat/CORP-217",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "ab6d8af339259c7ee6f32cbe8cccc217e3d9b13d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/ab6d8af339259c7ee6f32cbe8cccc217e3d9b13d",
+                    "reference": "ab6d8af339259c7ee6f32cbe8cccc217e3d9b13d",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": "^8.2",
+                    "sylius/theme-bundle": "^2.3",
+                    "symfony/validator": "^6.4 || ^7.1"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
+                    "symfony/asset": "^6.4 || ^7.1",
+                    "symfony/console": "^6.4 || ^7.1",
+                    "symfony/debug-bundle": "^6.4 || ^7.1",
+                    "symfony/dotenv": "^6.4 || ^7.1",
+                    "symfony/filesystem": "^6.4 || ^7.1",
+                    "symfony/finder": "^6.4 || ^7.1",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "^6.4 || ^7.1",
+                    "symfony/http-foundation": "^6.4 || ^7.1",
+                    "symfony/http-kernel": "^6.4 || ^7.1",
+                    "symfony/routing": "^6.4 || ^7.1",
+                    "symfony/runtime": "^6.4 || ^7.1",
+                    "symfony/twig-bundle": "^6.4 || ^7.1",
+                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "^6.4 || ^7.1"
+                },
+                "time": "2024-10-21T13:39:57+00:00",
+                "type": "monofony-theme",
+                "extra": {
+                    "symfony": {
+                        "require": "^6.4 || ^7.1"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-217",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            },
             "dev-feat/update_cfctheme_release_29": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-feat/update_cfctheme_release_29",
