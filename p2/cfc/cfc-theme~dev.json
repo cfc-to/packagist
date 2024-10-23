@@ -361,12 +361,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "c85152c35bd62890ae5df3f83d13001c5d95f2aa"
+                    "reference": "da4089d49935487a82e84ebfd3761e3b458427e3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/c85152c35bd62890ae5df3f83d13001c5d95f2aa",
-                    "reference": "c85152c35bd62890ae5df3f83d13001c5d95f2aa",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/da4089d49935487a82e84ebfd3761e3b458427e3",
+                    "reference": "da4089d49935487a82e84ebfd3761e3b458427e3",
                     "shasum": ""
                 },
                 "require": {
@@ -396,7 +396,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2024-10-23T08:35:13+00:00",
+                "time": "2024-10-23T10:10:39+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
@@ -436,7 +436,7 @@
                     }
                 },
                 "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-218",
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-223",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
