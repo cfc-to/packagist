@@ -103,12 +103,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "5b5c980eb5464092bbdf1a0a9af43ad2d4be6427"
+                    "reference": "41c45b0bcb36d1bdea734678a935743013dc4d23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/5b5c980eb5464092bbdf1a0a9af43ad2d4be6427",
-                    "reference": "5b5c980eb5464092bbdf1a0a9af43ad2d4be6427",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/41c45b0bcb36d1bdea734678a935743013dc4d23",
+                    "reference": "41c45b0bcb36d1bdea734678a935743013dc4d23",
                     "shasum": ""
                 },
                 "require": {
@@ -138,7 +138,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2024-10-22T14:45:02+00:00",
+                "time": "2024-10-24T10:47:15+00:00",
                 "type": "monofony-theme",
                 "extra": {
                     "symfony": {
@@ -179,92 +179,6 @@
                 },
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-217",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
-            {
-                "name": "cfc/cfc-theme",
-                "version": "dev-feat/CORP-218",
-                "version_normalized": "dev-feat/CORP-218",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "c5e7e6abe329ec1862e245569fa679ec9fdb7048"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/c5e7e6abe329ec1862e245569fa679ec9fdb7048",
-                    "reference": "c5e7e6abe329ec1862e245569fa679ec9fdb7048",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": "^8.2",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4 || ^7.1"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "^6.4 || ^7.1",
-                    "symfony/console": "^6.4 || ^7.1",
-                    "symfony/debug-bundle": "^6.4 || ^7.1",
-                    "symfony/dotenv": "^6.4 || ^7.1",
-                    "symfony/filesystem": "^6.4 || ^7.1",
-                    "symfony/finder": "^6.4 || ^7.1",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "^6.4 || ^7.1",
-                    "symfony/http-foundation": "^6.4 || ^7.1",
-                    "symfony/http-kernel": "^6.4 || ^7.1",
-                    "symfony/routing": "^6.4 || ^7.1",
-                    "symfony/runtime": "^6.4 || ^7.1",
-                    "symfony/twig-bundle": "^6.4 || ^7.1",
-                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "^6.4 || ^7.1"
-                },
-                "time": "2024-10-24T10:45:34+00:00",
-                "type": "monofony-theme",
-                "extra": {
-                    "symfony": {
-                        "require": "^6.4 || ^7.1"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-218",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
