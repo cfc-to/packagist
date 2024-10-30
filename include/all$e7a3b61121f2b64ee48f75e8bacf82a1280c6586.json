@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "cef614cb89e2f0f28f8f02abb0b2aef332b39850"
+                    "reference": "181929c5fa95d9d25517c953c45bad28d25719d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/cef614cb89e2f0f28f8f02abb0b2aef332b39850",
-                    "reference": "cef614cb89e2f0f28f8f02abb0b2aef332b39850",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/181929c5fa95d9d25517c953c45bad28d25719d0",
+                    "reference": "181929c5fa95d9d25517c953c45bad28d25719d0",
                     "shasum": ""
                 },
                 "require": {
@@ -21,12 +21,6 @@
                     "php": "^8.2",
                     "sylius/theme-bundle": "^2.3",
                     "symfony/validator": "^6.4 || ^7.1"
-                },
-                "replace": {
-                    "sylius/bootstrap-admin-ui": "self.version",
-                    "sylius/twig-extra": "self.version",
-                    "sylius/twig-hooks": "self.version",
-                    "sylius/ui-translations": "self.version"
                 },
                 "require-dev": {
                     "ext-ctype": "*",
@@ -49,7 +43,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2024-10-30T11:31:02+00:00",
+                "time": "2024-10-30T11:32:24+00:00",
                 "type": "library",
                 "extra": {
                     "symfony": {
