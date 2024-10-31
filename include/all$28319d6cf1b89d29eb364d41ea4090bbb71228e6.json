@@ -1594,19 +1594,19 @@
             }
         },
         "cfc/erp-client": {
-            "dev-chore/maj-erp-json": {
+            "dev-chore/maj-erp-json-for-declaration-api": {
                 "name": "cfc/erp-client",
-                "version": "dev-chore/maj-erp-json",
-                "version_normalized": "dev-chore/maj-erp-json",
+                "version": "dev-chore/maj-erp-json-for-declaration-api",
+                "version_normalized": "dev-chore/maj-erp-json-for-declaration-api",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "86760acaa7fdc08972e23a316c30a7931c039822"
+                    "reference": "b0e8358219f4a75a70cf9e97da48d3491e18ca03"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/86760acaa7fdc08972e23a316c30a7931c039822",
-                    "reference": "86760acaa7fdc08972e23a316c30a7931c039822",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/b0e8358219f4a75a70cf9e97da48d3491e18ca03",
+                    "reference": "b0e8358219f4a75a70cf9e97da48d3491e18ca03",
                     "shasum": ""
                 },
                 "require": {
@@ -1621,7 +1621,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-10-31T10:48:08+00:00",
+                "time": "2024-10-31T11:10:35+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -1638,7 +1638,7 @@
                     "MIT"
                 ],
                 "support": {
-                    "source": "https://github.com/cfc-to/erp-php-client/tree/chore/maj-erp-json",
+                    "source": "https://github.com/cfc-to/erp-php-client/tree/chore/maj-erp-json-for-declaration-api",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
                 }
             },
