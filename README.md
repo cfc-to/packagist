@@ -2,6 +2,8 @@
 
 Simple static Composer repository generator.
 
+[CFC Packagist repository](https://packagist.cfc.to/)
+
 ## Run from source
 
 Satis requires a recent PHP version, it does not run with unsupported PHP versions. Check the `composer.json` file for details.
