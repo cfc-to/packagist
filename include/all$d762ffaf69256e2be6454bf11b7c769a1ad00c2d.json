@@ -1,6 +1,93 @@
 {
     "packages": {
         "cfc/cfc-theme": {
+            "dev-chore/update-digital-factory": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-chore/update-digital-factory",
+                "version_normalized": "dev-chore/update-digital-factory",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "57cd03e4c33777a23e6231c1dedc5dda11f5ebc3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/57cd03e4c33777a23e6231c1dedc5dda11f5ebc3",
+                    "reference": "57cd03e4c33777a23e6231c1dedc5dda11f5ebc3",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": "^8.2",
+                    "sylius/theme-bundle": "^2.3",
+                    "symfony/validator": "^6.4 || ^7.1"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
+                    "symfony/asset": "^6.4 || ^7.1",
+                    "symfony/console": "^6.4 || ^7.1",
+                    "symfony/debug-bundle": "^6.4 || ^7.1",
+                    "symfony/dotenv": "^6.4 || ^7.1",
+                    "symfony/filesystem": "^6.4 || ^7.1",
+                    "symfony/finder": "^6.4 || ^7.1",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "^6.4 || ^7.1",
+                    "symfony/http-foundation": "^6.4 || ^7.1",
+                    "symfony/http-kernel": "^6.4 || ^7.1",
+                    "symfony/routing": "^6.4 || ^7.1",
+                    "symfony/runtime": "^6.4 || ^7.1",
+                    "symfony/twig-bundle": "^6.4 || ^7.1",
+                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "^6.4 || ^7.1"
+                },
+                "time": "2024-11-22T09:14:00+00:00",
+                "type": "library",
+                "extra": {
+                    "symfony": {
+                        "require": "^6.4 || ^7.1"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "description": "CFC Theme to use on your projects",
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/chore/update-digital-factory",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            },
             "dev-doc/update-theme": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-doc/update-theme",
