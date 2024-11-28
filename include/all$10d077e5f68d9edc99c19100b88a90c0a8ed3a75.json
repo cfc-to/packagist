@@ -886,19 +886,19 @@
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
-            "dev-fix/tooltip": {
+            "dev-fix/update-theme": {
                 "name": "cfc/cfc-theme",
-                "version": "dev-fix/tooltip",
-                "version_normalized": "dev-fix/tooltip",
+                "version": "dev-fix/update-theme",
+                "version_normalized": "dev-fix/update-theme",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "afcc13abb0013883e251a18775703c16a440435b"
+                    "reference": "0706faabab34e1686212fb588f203f28532a36e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/afcc13abb0013883e251a18775703c16a440435b",
-                    "reference": "afcc13abb0013883e251a18775703c16a440435b",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/0706faabab34e1686212fb588f203f28532a36e9",
+                    "reference": "0706faabab34e1686212fb588f203f28532a36e9",
                     "shasum": ""
                 },
                 "require": {
@@ -928,7 +928,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2024-11-28T08:56:28+00:00",
+                "time": "2024-11-28T14:18:07+00:00",
                 "type": "library",
                 "extra": {
                     "symfony": {
@@ -969,7 +969,7 @@
                 },
                 "description": "CFC Theme to use on your projects",
                 "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/tooltip",
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/update-theme",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
@@ -980,12 +980,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "2b89e79268d9556ac90d0b4810b5f0ccb4ef8fe1"
+                    "reference": "3d70ce98776a1587f5745fdfe239fe0a058100df"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/2b89e79268d9556ac90d0b4810b5f0ccb4ef8fe1",
-                    "reference": "2b89e79268d9556ac90d0b4810b5f0ccb4ef8fe1",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/3d70ce98776a1587f5745fdfe239fe0a058100df",
+                    "reference": "3d70ce98776a1587f5745fdfe239fe0a058100df",
                     "shasum": ""
                 },
                 "require": {
@@ -1015,7 +1015,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2024-11-27T13:37:07+00:00",
+                "time": "2024-11-28T14:17:24+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
