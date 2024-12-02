@@ -1509,6 +1509,54 @@
             }
         },
         "cfc/erp-client": {
+            "dev-feat/addMonarkIdInContact": {
+                "name": "cfc/erp-client",
+                "version": "dev-feat/addMonarkIdInContact",
+                "version_normalized": "dev-feat/addMonarkIdInContact",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/erp-php-client.git",
+                    "reference": "f6b5b391e24991e52a490c8e6d4bff7de314af61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/f6b5b391e24991e52a490c8e6d4bff7de314af61",
+                    "reference": "f6b5b391e24991e52a490c8e6d4bff7de314af61",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-12-02T16:25:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/erp-php-client/tree/feat/addMonarkIdInContact",
+                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
+                }
+            },
             "dev-main": {
                 "name": "cfc/erp-client",
                 "version": "dev-main",
