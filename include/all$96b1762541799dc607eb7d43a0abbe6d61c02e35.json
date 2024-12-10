@@ -1596,6 +1596,54 @@
             }
         },
         "cfc/erp-client": {
+            "dev-feat/erp-change-contact-role": {
+                "name": "cfc/erp-client",
+                "version": "dev-feat/erp-change-contact-role",
+                "version_normalized": "dev-feat/erp-change-contact-role",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/erp-php-client.git",
+                    "reference": "44a796bc8d374d5a7b2538a520aecb4c6c8fc89e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/44a796bc8d374d5a7b2538a520aecb4c6c8fc89e",
+                    "reference": "44a796bc8d374d5a7b2538a520aecb4c6c8fc89e",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-12-10T14:38:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/erp-php-client/tree/feat/erp-change-contact-role",
+                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
+                }
+            },
             "dev-main": {
                 "name": "cfc/erp-client",
                 "version": "dev-main",
