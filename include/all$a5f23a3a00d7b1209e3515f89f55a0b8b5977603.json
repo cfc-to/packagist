@@ -1746,6 +1746,54 @@
             }
         },
         "cfc/site-php-client": {
+            "dev-chore/change_faq": {
+                "name": "cfc/site-php-client",
+                "version": "dev-chore/change_faq",
+                "version_normalized": "dev-chore/change_faq",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/site-php-client.git",
+                    "reference": "c025359dcc4ffebe10bfb2d6c7aa3c5a5f3ef13b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/c025359dcc4ffebe10bfb2d6c7aa3c5a5f3ef13b",
+                    "reference": "c025359dcc4ffebe10bfb2d6c7aa3c5a5f3ef13b",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2024-12-19T08:30:03+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Site\\Api\\": "generated/",
+                        "Cfc\\Site\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Site\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/site-php-client/tree/chore/change_faq",
+                    "issues": "https://github.com/cfc-to/site-php-client/issues"
+                }
+            },
             "dev-feat/add_created_articles": {
                 "name": "cfc/site-php-client",
                 "version": "dev-feat/add_created_articles",
@@ -2041,12 +2089,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/site-php-client.git",
-                    "reference": "bbff7526089a60a225fb087aff61b85b7336c583"
+                    "reference": "f49a4bcaf21f2aaa36fc2f496e1b69621cef4c0a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/bbff7526089a60a225fb087aff61b85b7336c583",
-                    "reference": "bbff7526089a60a225fb087aff61b85b7336c583",
+                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/f49a4bcaf21f2aaa36fc2f496e1b69621cef4c0a",
+                    "reference": "f49a4bcaf21f2aaa36fc2f496e1b69621cef4c0a",
                     "shasum": ""
                 },
                 "require": {
@@ -2061,7 +2109,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-12-18T07:09:11+00:00",
+                "time": "2024-12-19T08:30:49+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
