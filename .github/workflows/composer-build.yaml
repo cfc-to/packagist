@@ -22,8 +22,7 @@ jobs:
         run: |
           if [ ! -d composer ]; then mkdir composer; fi
           echo "$AUTH_JSON" > composer/auth.json
-          git config --global --add safe.directory /build
-          docker run --rm -i -v ${{ github.workspace }}:/build -v ${{ github.workspace }}/composer:/composer composer/satis build satis.json output
+          docker run --rm -i -v ${{ github.workspace }}:/build -v ${{ github.workspace }}/composer:/composer composer/satis /bin/bash -c "git config --global --add safe.directory /build && build satis.json output"
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
