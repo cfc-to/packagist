@@ -1,93 +1,6 @@
 {
     "packages": {
         "cfc/cfc-theme": {
-            "dev-chore/daily-theme-update": {
-                "name": "cfc/cfc-theme",
-                "version": "dev-chore/daily-theme-update",
-                "version_normalized": "dev-chore/daily-theme-update",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "2a703de92b466d03c22a0edc097df81247461388"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/2a703de92b466d03c22a0edc097df81247461388",
-                    "reference": "2a703de92b466d03c22a0edc097df81247461388",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": "^8.2",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4 || ^7.1"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "^6.4 || ^7.1",
-                    "symfony/console": "^6.4 || ^7.1",
-                    "symfony/debug-bundle": "^6.4 || ^7.1",
-                    "symfony/dotenv": "^6.4 || ^7.1",
-                    "symfony/filesystem": "^6.4 || ^7.1",
-                    "symfony/finder": "^6.4 || ^7.1",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "^6.4 || ^7.1",
-                    "symfony/http-foundation": "^6.4 || ^7.1",
-                    "symfony/http-kernel": "^6.4 || ^7.1",
-                    "symfony/routing": "^6.4 || ^7.1",
-                    "symfony/runtime": "^6.4 || ^7.1",
-                    "symfony/twig-bundle": "^6.4 || ^7.1",
-                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "^6.4 || ^7.1"
-                },
-                "time": "2025-02-04T12:26:22+00:00",
-                "type": "library",
-                "extra": {
-                    "symfony": {
-                        "require": "^6.4 || ^7.1"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "description": "CFC Theme to use on your projects",
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/chore/daily-theme-update",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
             "dev-feat/CORP-229": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-feat/CORP-229",
@@ -783,6 +696,93 @@
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
+            "dev-fix/npm-lock": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-fix/npm-lock",
+                "version_normalized": "dev-fix/npm-lock",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "7db6f08f7ee7ff6fea242919804be43a14802931"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/7db6f08f7ee7ff6fea242919804be43a14802931",
+                    "reference": "7db6f08f7ee7ff6fea242919804be43a14802931",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": "^8.2",
+                    "sylius/theme-bundle": "^2.3",
+                    "symfony/validator": "^6.4 || ^7.1"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
+                    "symfony/asset": "^6.4 || ^7.1",
+                    "symfony/console": "^6.4 || ^7.1",
+                    "symfony/debug-bundle": "^6.4 || ^7.1",
+                    "symfony/dotenv": "^6.4 || ^7.1",
+                    "symfony/filesystem": "^6.4 || ^7.1",
+                    "symfony/finder": "^6.4 || ^7.1",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "^6.4 || ^7.1",
+                    "symfony/http-foundation": "^6.4 || ^7.1",
+                    "symfony/http-kernel": "^6.4 || ^7.1",
+                    "symfony/routing": "^6.4 || ^7.1",
+                    "symfony/runtime": "^6.4 || ^7.1",
+                    "symfony/twig-bundle": "^6.4 || ^7.1",
+                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
+                    "symfony/webpack-encore-bundle": "2.0.*",
+                    "symfony/yaml": "^6.4 || ^7.1"
+                },
+                "time": "2025-02-04T12:39:59+00:00",
+                "type": "library",
+                "extra": {
+                    "symfony": {
+                        "require": "^6.4 || ^7.1"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "description": "CFC Theme to use on your projects",
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/npm-lock",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
+            },
             "dev-fix/pagination": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-fix/pagination",
@@ -980,12 +980,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "0869526f9ac3184ced2f56b1e8081977d3f1d8fa"
+                    "reference": "476f33b2c25b8985e7e31e582f2d83af3c9b23de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/0869526f9ac3184ced2f56b1e8081977d3f1d8fa",
-                    "reference": "0869526f9ac3184ced2f56b1e8081977d3f1d8fa",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/476f33b2c25b8985e7e31e582f2d83af3c9b23de",
+                    "reference": "476f33b2c25b8985e7e31e582f2d83af3c9b23de",
                     "shasum": ""
                 },
                 "require": {
@@ -1015,7 +1015,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2025-01-28T10:51:01+00:00",
+                "time": "2025-02-04T12:39:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1144,93 +1144,6 @@
                 },
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/new-cfc-theme",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
-            "dev-test/enter-otp": {
-                "name": "cfc/cfc-theme",
-                "version": "dev-test/enter-otp",
-                "version_normalized": "dev-test/enter-otp",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "47d08e361fc3266cacf9440c952b3c4fc1ac873d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/47d08e361fc3266cacf9440c952b3c4fc1ac873d",
-                    "reference": "47d08e361fc3266cacf9440c952b3c4fc1ac873d",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": "^8.2",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4 || ^7.1"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "^6.4 || ^7.1",
-                    "symfony/console": "^6.4 || ^7.1",
-                    "symfony/debug-bundle": "^6.4 || ^7.1",
-                    "symfony/dotenv": "^6.4 || ^7.1",
-                    "symfony/filesystem": "^6.4 || ^7.1",
-                    "symfony/finder": "^6.4 || ^7.1",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "^6.4 || ^7.1",
-                    "symfony/http-foundation": "^6.4 || ^7.1",
-                    "symfony/http-kernel": "^6.4 || ^7.1",
-                    "symfony/routing": "^6.4 || ^7.1",
-                    "symfony/runtime": "^6.4 || ^7.1",
-                    "symfony/twig-bundle": "^6.4 || ^7.1",
-                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "^6.4 || ^7.1"
-                },
-                "time": "2025-01-29T12:29:13+00:00",
-                "type": "library",
-                "extra": {
-                    "symfony": {
-                        "require": "^6.4 || ^7.1"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "description": "CFC Theme to use on your projects",
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/test/enter-otp",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
             },
