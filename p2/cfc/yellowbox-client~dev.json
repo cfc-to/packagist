@@ -49,6 +49,54 @@
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
                 }
+            },
+            {
+                "name": "cfc/yellowbox-client",
+                "version": "dev-renovate/configure",
+                "version_normalized": "dev-renovate/configure",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
+                    "reference": "71e0fe2efce370c55a8e54c03ee23920dda8a718"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/71e0fe2efce370c55a8e54c03ee23920dda8a718",
+                    "reference": "71e0fe2efce370c55a8e54c03ee23920dda8a718",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2025-02-11T16:07:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Api\\": "generated/",
+                        "Cfc\\Yellowbox\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/renovate/configure",
+                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
+                }
             }
         ]
     }
