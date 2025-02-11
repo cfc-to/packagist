@@ -1724,6 +1724,55 @@
                     "source": "https://github.com/cfc-to/directory-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/directory-php-client/issues"
                 }
+            },
+            "dev-renovate/configure": {
+                "name": "cfc/directory-client",
+                "version": "dev-renovate/configure",
+                "version_normalized": "dev-renovate/configure",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/directory-php-client.git",
+                    "reference": "02cdfa314dec2acc993211cb6632c8cb9dd4e603"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/directory-php-client/zipball/02cdfa314dec2acc993211cb6632c8cb9dd4e603",
+                    "reference": "02cdfa314dec2acc993211cb6632c8cb9dd4e603",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2025-02-11T16:11:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Api\\": "generated/",
+                        "Cfc\\Directory\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Directory\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/directory-php-client/tree/renovate/configure",
+                    "issues": "https://github.com/cfc-to/directory-php-client/issues"
+                }
             }
         },
         "cfc/electre-client": {
@@ -1775,6 +1824,56 @@
                 ],
                 "support": {
                     "source": "https://github.com/cfc-to/electre-php-client/tree/main",
+                    "issues": "https://github.com/cfc-to/electre-php-client/issues"
+                }
+            },
+            "dev-renovate/configure": {
+                "name": "cfc/electre-client",
+                "version": "dev-renovate/configure",
+                "version_normalized": "dev-renovate/configure",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/electre-php-client.git",
+                    "reference": "8636cc4d203913ef9a2c4c5fb20b7ed99827f7bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/electre-php-client/zipball/8636cc4d203913ef9a2c4c5fb20b7ed99827f7bb",
+                    "reference": "8636cc4d203913ef9a2c4c5fb20b7ed99827f7bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-2": "^7.5",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2025-02-11T16:11:10+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Api\\": "generated/",
+                        "Cfc\\Electre\\": "src/",
+                        "Jane\\Component\\OpenApiCommon\\Naming\\": "jane/Component/OpenApiCommon/Naming/",
+                        "Jane\\Component\\OpenApi2\\JsonSchema\\Normalizer\\": "jane/Component/OpenApi2/JsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Electre\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/electre-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
                 }
             }
