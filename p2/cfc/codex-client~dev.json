@@ -50,6 +50,55 @@
                     "source": "https://github.com/cfc-to/codex-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/codex-php-client/issues"
                 }
+            },
+            {
+                "name": "cfc/codex-client",
+                "version": "dev-renovate/configure",
+                "version_normalized": "dev-renovate/configure",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/codex-php-client.git",
+                    "reference": "f1517d020f46e655569313f36853333886187317"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/codex-php-client/zipball/f1517d020f46e655569313f36853333886187317",
+                    "reference": "f1517d020f46e655569313f36853333886187317",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^1.0",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2025-02-11T16:09:20+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Api\\": "generated/",
+                        "Cfc\\Codex\\": "src/",
+                        "Jane\\Component\\OpenApi3\\JsonSchema\\Normalizer\\": "src/CustomJsonSchema/Normalizer/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Codex\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/codex-php-client/tree/renovate/configure",
+                    "issues": "https://github.com/cfc-to/codex-php-client/issues"
+                }
             }
         ]
     }
