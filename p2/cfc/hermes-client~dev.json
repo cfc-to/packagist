@@ -97,6 +97,54 @@
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
                 }
+            },
+            {
+                "name": "cfc/hermes-client",
+                "version": "dev-renovate/configure",
+                "version_normalized": "dev-renovate/configure",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/hermes-php-client.git",
+                    "reference": "41e41fcf42d2e840bd80b5b741f6fc0167cacc08"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/hermes-php-client/zipball/41e41fcf42d2e840bd80b5b741f6fc0167cacc08",
+                    "reference": "41e41fcf42d2e840bd80b5b741f6fc0167cacc08",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.5",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.40",
+                    "jane-php/open-api-3": "^7.6",
+                    "rector/rector": "^0.19",
+                    "symfony/http-client": "5.4 || ^6.0",
+                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                },
+                "time": "2025-02-11T16:11:45+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Api\\": "generated/",
+                        "Cfc\\Hermes\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Hermes\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/hermes-php-client/tree/renovate/configure",
+                    "issues": "https://github.com/cfc-to/hermes-php-client/issues"
+                }
             }
         ]
     }
