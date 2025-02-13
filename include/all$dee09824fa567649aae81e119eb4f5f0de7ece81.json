@@ -1,93 +1,6 @@
 {
     "packages": {
         "cfc/cfc-theme": {
-            "dev-MNK-573-download-receipt-arialabel": {
-                "name": "cfc/cfc-theme",
-                "version": "dev-MNK-573-download-receipt-arialabel",
-                "version_normalized": "dev-MNK-573-download-receipt-arialabel",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "da83e702331e71f0ae452c369c9b1ecbc6f10ef2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/da83e702331e71f0ae452c369c9b1ecbc6f10ef2",
-                    "reference": "da83e702331e71f0ae452c369c9b1ecbc6f10ef2",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": "^8.2",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4 || ^7.1"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "^6.4 || ^7.1",
-                    "symfony/console": "^6.4 || ^7.1",
-                    "symfony/debug-bundle": "^6.4 || ^7.1",
-                    "symfony/dotenv": "^6.4 || ^7.1",
-                    "symfony/filesystem": "^6.4 || ^7.1",
-                    "symfony/finder": "^6.4 || ^7.1",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "^6.4 || ^7.1",
-                    "symfony/http-foundation": "^6.4 || ^7.1",
-                    "symfony/http-kernel": "^6.4 || ^7.1",
-                    "symfony/routing": "^6.4 || ^7.1",
-                    "symfony/runtime": "^6.4 || ^7.1",
-                    "symfony/twig-bundle": "^6.4 || ^7.1",
-                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "^6.4 || ^7.1"
-                },
-                "time": "2025-02-13T11:25:45+00:00",
-                "type": "library",
-                "extra": {
-                    "symfony": {
-                        "require": "^6.4 || ^7.1"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "description": "CFC Theme to use on your projects",
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/MNK-573-download-receipt-arialabel",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
             "dev-feat/CORP-229": {
                 "name": "cfc/cfc-theme",
                 "version": "dev-feat/CORP-229",
@@ -1067,12 +980,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "6d168953c08a9658ea7e3366e7c1748b961eee53"
+                    "reference": "308a2d97269fb36aa2999d7f0ed126ee87b26ff4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/6d168953c08a9658ea7e3366e7c1748b961eee53",
-                    "reference": "6d168953c08a9658ea7e3366e7c1748b961eee53",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/308a2d97269fb36aa2999d7f0ed126ee87b26ff4",
+                    "reference": "308a2d97269fb36aa2999d7f0ed126ee87b26ff4",
                     "shasum": ""
                 },
                 "require": {
@@ -1102,7 +1015,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2025-02-11T10:53:09+00:00",
+                "time": "2025-02-13T11:27:58+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
