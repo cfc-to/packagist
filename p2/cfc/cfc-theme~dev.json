@@ -698,93 +698,6 @@
             },
             {
                 "name": "cfc/cfc-theme",
-                "version": "dev-fix/create-pr-if-branch-exists",
-                "version_normalized": "dev-fix/create-pr-if-branch-exists",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "b4ea28ccc0f61cadfa768dac2a01b61d1b893834"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/b4ea28ccc0f61cadfa768dac2a01b61d1b893834",
-                    "reference": "b4ea28ccc0f61cadfa768dac2a01b61d1b893834",
-                    "shasum": ""
-                },
-                "require": {
-                    "knplabs/knp-menu-bundle": "^3.4",
-                    "php": "^8.2",
-                    "sylius/theme-bundle": "^2.3",
-                    "symfony/validator": "^6.4 || ^7.1"
-                },
-                "require-dev": {
-                    "ext-ctype": "*",
-                    "ext-iconv": "*",
-                    "friendsoftwig/twigcs": "*",
-                    "symfony/asset": "^6.4 || ^7.1",
-                    "symfony/console": "^6.4 || ^7.1",
-                    "symfony/debug-bundle": "^6.4 || ^7.1",
-                    "symfony/dotenv": "^6.4 || ^7.1",
-                    "symfony/filesystem": "^6.4 || ^7.1",
-                    "symfony/finder": "^6.4 || ^7.1",
-                    "symfony/flex": "^2",
-                    "symfony/framework-bundle": "^6.4 || ^7.1",
-                    "symfony/http-foundation": "^6.4 || ^7.1",
-                    "symfony/http-kernel": "^6.4 || ^7.1",
-                    "symfony/routing": "^6.4 || ^7.1",
-                    "symfony/runtime": "^6.4 || ^7.1",
-                    "symfony/twig-bundle": "^6.4 || ^7.1",
-                    "symfony/web-profiler-bundle": "^6.4 || ^7.1",
-                    "symfony/webpack-encore-bundle": "2.0.*",
-                    "symfony/yaml": "^6.4 || ^7.1"
-                },
-                "time": "2025-03-10T08:05:18+00:00",
-                "type": "library",
-                "extra": {
-                    "symfony": {
-                        "require": "^6.4 || ^7.1"
-                    },
-                    "sylius-theme": {
-                        "description": "CFC default theme"
-                    }
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Theme\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "classmap": [
-                        "tests/Application/src/Kernel.php"
-                    ],
-                    "psr-4": {
-                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
-                    }
-                },
-                "scripts": {
-                    "post-install-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-update-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "post-create-project-cmd": [
-                        "php bin/create_node_symlink.php"
-                    ],
-                    "auto-scripts": {
-                        "cache:clear": "symfony-cmd",
-                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
-                        "security-checker security:check": "script"
-                    }
-                },
-                "description": "CFC Theme to use on your projects",
-                "support": {
-                    "source": "https://github.com/cfc-to/cfc-theme/tree/fix/create-pr-if-branch-exists",
-                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
-            },
-            {
-                "name": "cfc/cfc-theme",
                 "version": "dev-fix/pagination",
                 "version_normalized": "dev-fix/pagination",
                 "source": {
@@ -980,12 +893,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/cfc-theme.git",
-                    "reference": "dd9cab3eed0adfb11d7e5206e3d1f7647c956f4f"
+                    "reference": "30856e6432a380fe2fe50ef33ebd750dc4f52a53"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/dd9cab3eed0adfb11d7e5206e3d1f7647c956f4f",
-                    "reference": "dd9cab3eed0adfb11d7e5206e3d1f7647c956f4f",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/30856e6432a380fe2fe50ef33ebd750dc4f52a53",
+                    "reference": "30856e6432a380fe2fe50ef33ebd750dc4f52a53",
                     "shasum": ""
                 },
                 "require": {
@@ -1015,7 +928,7 @@
                     "symfony/webpack-encore-bundle": "2.0.*",
                     "symfony/yaml": "^6.4 || ^7.1"
                 },
-                "time": "2025-02-27T09:44:49+00:00",
+                "time": "2025-03-10T08:12:31+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
