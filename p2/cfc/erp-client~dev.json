@@ -51,6 +51,51 @@
             },
             {
                 "name": "cfc/erp-client",
+                "version": "dev-chore/remove-lint",
+                "version_normalized": "dev-chore/remove-lint",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/erp-php-client.git",
+                    "reference": "fb338c27eb2e6178fd8a17be1afb009410545af9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/fb338c27eb2e6178fd8a17be1afb009410545af9",
+                    "reference": "fb338c27eb2e6178fd8a17be1afb009410545af9",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.6",
+                    "nyholm/psr7": "^1.8",
+                    "php": ">=8.2"
+                },
+                "require-dev": {
+                    "jane-php/open-api-3": "^7.6",
+                    "symfony/http-client": "5.4 || ^6.0"
+                },
+                "time": "2025-03-17T09:02:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/erp-php-client/tree/chore/remove-lint",
+                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
+                }
+            },
+            {
+                "name": "cfc/erp-client",
                 "version": "dev-feat/mnk-628",
                 "version_normalized": "dev-feat/mnk-628",
                 "source": {
