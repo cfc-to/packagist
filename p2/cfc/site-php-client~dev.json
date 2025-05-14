@@ -488,12 +488,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/site-php-client.git",
-                    "reference": "eb2e7d3a83387f4dd0c17bf13ee066060c8f4172"
+                    "reference": "d10b7e6d2fcc00e4e2036a1ec35905ceb96050ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/eb2e7d3a83387f4dd0c17bf13ee066060c8f4172",
-                    "reference": "eb2e7d3a83387f4dd0c17bf13ee066060c8f4172",
+                    "url": "https://api.github.com/repos/cfc-to/site-php-client/zipball/d10b7e6d2fcc00e4e2036a1ec35905ceb96050ca",
+                    "reference": "d10b7e6d2fcc00e4e2036a1ec35905ceb96050ca",
                     "shasum": ""
                 },
                 "require": {
@@ -508,7 +508,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2025-05-14T07:20:07+00:00",
+                "time": "2025-05-14T11:40:42+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
