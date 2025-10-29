@@ -2184,12 +2184,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "2dcbbb71655b7a8aab4a5645ad6419c1fc9e151d"
+                    "reference": "1412c32718c01139a119b77047ca1d62f3a74cfa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/2dcbbb71655b7a8aab4a5645ad6419c1fc9e151d",
-                    "reference": "2dcbbb71655b7a8aab4a5645ad6419c1fc9e151d",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/1412c32718c01139a119b77047ca1d62f3a74cfa",
+                    "reference": "1412c32718c01139a119b77047ca1d62f3a74cfa",
                     "shasum": ""
                 },
                 "require": {
@@ -2204,7 +2204,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2025-06-25T12:50:30+00:00",
+                "time": "2025-10-29T14:07:27+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -2271,54 +2271,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/cfc-to/erp-php-client/tree/renovate/configure",
-                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
-                }
-            },
-            "dev-upgrade-erp-client-api": {
-                "name": "cfc/erp-client",
-                "version": "dev-upgrade-erp-client-api",
-                "version_normalized": "dev-upgrade-erp-client-api",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "096e7dc08b361c7f91558b294adabc0669cb8ffb"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/096e7dc08b361c7f91558b294adabc0669cb8ffb",
-                    "reference": "096e7dc08b361c7f91558b294adabc0669cb8ffb",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.6",
-                    "nyholm/psr7": "^1.8",
-                    "php": ">=8.2"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-3": "^7.6",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2025-10-29T13:23:46+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Erp\\Api\\": "generated/",
-                        "Cfc\\Erp\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Erp\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/erp-php-client/tree/upgrade-erp-client-api",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
                 }
             }
