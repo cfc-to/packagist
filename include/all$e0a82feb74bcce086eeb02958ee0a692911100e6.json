@@ -2177,54 +2177,6 @@
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
                 }
             },
-            "dev-improve-readme": {
-                "name": "cfc/erp-client",
-                "version": "dev-improve-readme",
-                "version_normalized": "dev-improve-readme",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "7b06593879eb1a3692b7370be606cc3bf609dac8"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/7b06593879eb1a3692b7370be606cc3bf609dac8",
-                    "reference": "7b06593879eb1a3692b7370be606cc3bf609dac8",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.9",
-                    "nyholm/psr7": "^1.8",
-                    "php": ">=8.2"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-3": "^7.9",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
-                },
-                "time": "2026-03-04T15:17:32+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Erp\\Api\\": "generated/",
-                        "Cfc\\Erp\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Erp\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/erp-php-client/tree/improve-readme",
-                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
-                }
-            },
             "dev-main": {
                 "name": "cfc/erp-client",
                 "version": "dev-main",
@@ -2232,12 +2184,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "de9fe4f28f2fb489060f2a7bb8841d267a278e62"
+                    "reference": "ebebd19fb135093640bb9e71f2093e4203f117ea"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/de9fe4f28f2fb489060f2a7bb8841d267a278e62",
-                    "reference": "de9fe4f28f2fb489060f2a7bb8841d267a278e62",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/ebebd19fb135093640bb9e71f2093e4203f117ea",
+                    "reference": "ebebd19fb135093640bb9e71f2093e4203f117ea",
                     "shasum": ""
                 },
                 "require": {
@@ -2252,7 +2204,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2026-01-13T14:59:07+00:00",
+                "time": "2026-03-04T15:19:08+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
