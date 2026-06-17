@@ -3243,6 +3243,54 @@
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
                 }
+            },
+            "dev-upgrade-jane": {
+                "name": "cfc/yellowbox-client",
+                "version": "dev-upgrade-jane",
+                "version_normalized": "dev-upgrade-jane",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/yellowbox-php-client.git",
+                    "reference": "53a4c7811dab1cdc974de45f30822a448d80d61a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/53a4c7811dab1cdc974de45f30822a448d80d61a",
+                    "reference": "53a4c7811dab1cdc974de45f30822a448d80d61a",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.11",
+                    "nyholm/psr7": "^1.8",
+                    "php": "^8.3"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.49",
+                    "jane-php/open-api-2": "^7.11",
+                    "rector/rector": "^1.0.5",
+                    "symfony/http-client": "5.4 || ^6.4.3",
+                    "symfony/phpunit-bridge": "5.4 || ^6.4.3"
+                },
+                "time": "2026-06-17T10:59:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Api\\": "generated/",
+                        "Cfc\\Yellowbox\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Yellowbox\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/yellowbox-php-client/tree/upgrade-jane",
+                    "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
+                }
             }
         },
         "mono/maker-bundle": {
