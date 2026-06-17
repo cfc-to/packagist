@@ -3154,12 +3154,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/yellowbox-php-client.git",
-                    "reference": "09a00016ff6957306a241264c909b6fcedc4f52b"
+                    "reference": "cb83d9893fe71a769f43e80b78c806a773ee2ef4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/09a00016ff6957306a241264c909b6fcedc4f52b",
-                    "reference": "09a00016ff6957306a241264c909b6fcedc4f52b",
+                    "url": "https://api.github.com/repos/cfc-to/yellowbox-php-client/zipball/cb83d9893fe71a769f43e80b78c806a773ee2ef4",
+                    "reference": "cb83d9893fe71a769f43e80b78c806a773ee2ef4",
                     "shasum": ""
                 },
                 "require": {
@@ -3168,13 +3168,13 @@
                     "php": "^8.3"
                 },
                 "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.40",
-                    "jane-php/open-api-2": "^7.5",
-                    "rector/rector": "^1.0",
-                    "symfony/http-client": "5.4 || ^6.0",
-                    "symfony/phpunit-bridge": "5.4 || ^6.0"
+                    "friendsofphp/php-cs-fixer": "^3.49",
+                    "jane-php/open-api-2": "^7.6",
+                    "rector/rector": "^1.0.5",
+                    "symfony/http-client": "5.4 || ^6.4.3",
+                    "symfony/phpunit-bridge": "5.4 || ^6.4.3"
                 },
-                "time": "2024-06-18T20:39:05+00:00",
+                "time": "2026-06-17T09:28:21+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
