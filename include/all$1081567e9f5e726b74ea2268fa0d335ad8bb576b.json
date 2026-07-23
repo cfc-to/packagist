@@ -1582,6 +1582,94 @@
                     "source": "https://github.com/cfc-to/cfc-theme/tree/update-digital-factory/v0.0.67",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
                 }
+            },
+            "dev-update-digital-factory/v0.0.71": {
+                "name": "cfc/cfc-theme",
+                "version": "dev-update-digital-factory/v0.0.71",
+                "version_normalized": "dev-update-digital-factory/v0.0.71",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/cfc-theme.git",
+                    "reference": "b124d30693abfa4bcac8890b96d2889a162cd730"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/cfc-theme/zipball/b124d30693abfa4bcac8890b96d2889a162cd730",
+                    "reference": "b124d30693abfa4bcac8890b96d2889a162cd730",
+                    "shasum": ""
+                },
+                "require": {
+                    "knplabs/knp-menu-bundle": "^3.4",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "ext-ctype": "*",
+                    "ext-iconv": "*",
+                    "friendsoftwig/twigcs": "*",
+                    "sylius/theme-bundle": "^2.5",
+                    "symfony/asset": "^8.0",
+                    "symfony/console": "^8.0",
+                    "symfony/debug-bundle": "^8.0",
+                    "symfony/dotenv": "^8.0",
+                    "symfony/filesystem": "^8.0",
+                    "symfony/finder": "^8.0",
+                    "symfony/flex": "^2",
+                    "symfony/framework-bundle": "^8.0",
+                    "symfony/http-foundation": "^8.0",
+                    "symfony/http-kernel": "^8.0",
+                    "symfony/routing": "^8.0",
+                    "symfony/runtime": "^8.0",
+                    "symfony/translation": "^8.0",
+                    "symfony/twig-bundle": "^8.0",
+                    "symfony/validator": "^8.0",
+                    "symfony/web-profiler-bundle": "^8.0",
+                    "symfony/webpack-encore-bundle": "2.4.*",
+                    "symfony/yaml": "^8.0"
+                },
+                "time": "2026-07-23T01:34:39+00:00",
+                "type": "library",
+                "extra": {
+                    "symfony": {
+                        "require": "^8.0"
+                    },
+                    "sylius-theme": {
+                        "description": "CFC default theme"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Theme\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/Application/src/Kernel.php"
+                    ],
+                    "psr-4": {
+                        "Cfc\\Tests\\Application\\": "tests/Application/src/"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-update-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "post-create-project-cmd": [
+                        "php bin/create_node_symlink.php"
+                    ],
+                    "auto-scripts": {
+                        "cache:clear": "symfony-cmd",
+                        "assets:install %PUBLIC_DIR%": "symfony-cmd",
+                        "security-checker security:check": "script"
+                    }
+                },
+                "description": "CFC Theme to use on your projects",
+                "support": {
+                    "source": "https://github.com/cfc-to/cfc-theme/tree/update-digital-factory/v0.0.71",
+                    "issues": "https://github.com/cfc-to/cfc-theme/issues"
+                }
             }
         },
         "cfc/chorus-php-client": {
@@ -2133,6 +2221,54 @@
             }
         },
         "cfc/erp-client": {
+            "dev-IT-1958/chore-update-jane-environment": {
+                "name": "cfc/erp-client",
+                "version": "dev-IT-1958/chore-update-jane-environment",
+                "version_normalized": "dev-IT-1958/chore-update-jane-environment",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:cfc-to/erp-php-client.git",
+                    "reference": "cbbf61f0e95c6d140bcf3625fd5cffd9df7a1597"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/cbbf61f0e95c6d140bcf3625fd5cffd9df7a1597",
+                    "reference": "cbbf61f0e95c6d140bcf3625fd5cffd9df7a1597",
+                    "shasum": ""
+                },
+                "require": {
+                    "jane-php/open-api-runtime": "^7.11",
+                    "nyholm/psr7": "^1.8.1",
+                    "php": ">=8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.58.1",
+                    "jane-php/open-api-3": "^7.11",
+                    "rector/rector": "^1.2.2",
+                    "symfony/http-client": "^6.4.8",
+                    "symfony/phpunit-bridge": "5.4 || ^6.4.8"
+                },
+                "time": "2026-07-23T15:28:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Api\\": "generated/",
+                        "Cfc\\Erp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cfc\\Erp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "support": {
+                    "source": "https://github.com/cfc-to/erp-php-client/tree/IT-1958/chore-update-jane-environment",
+                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
+                }
+            },
             "dev-chore/remove-lint": {
                 "name": "cfc/erp-client",
                 "version": "dev-chore/remove-lint",
@@ -2185,12 +2321,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "904eac0aefd092f5756ecd81bba9e9118bff1439"
+                    "reference": "2f074d522516c6e37c278a35da2b56669da9cfbd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/904eac0aefd092f5756ecd81bba9e9118bff1439",
-                    "reference": "904eac0aefd092f5756ecd81bba9e9118bff1439",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/2f074d522516c6e37c278a35da2b56669da9cfbd",
+                    "reference": "2f074d522516c6e37c278a35da2b56669da9cfbd",
                     "shasum": ""
                 },
                 "require": {
@@ -2205,7 +2341,7 @@
                     "symfony/http-client": "^6.4.8",
                     "symfony/phpunit-bridge": "5.4 || ^6.4.8"
                 },
-                "time": "2026-05-26T16:30:35+00:00",
+                "time": "2026-07-23T15:30:24+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
