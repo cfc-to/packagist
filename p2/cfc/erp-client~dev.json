@@ -3,54 +3,6 @@
         "cfc/erp-client": [
             {
                 "name": "cfc/erp-client",
-                "version": "dev-IT-1969/feature-update-organization-erp",
-                "version_normalized": "dev-IT-1969/feature-update-organization-erp",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "8a37b1f9be6fc69aae3a59622be417d27de666b7"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/8a37b1f9be6fc69aae3a59622be417d27de666b7",
-                    "reference": "8a37b1f9be6fc69aae3a59622be417d27de666b7",
-                    "shasum": ""
-                },
-                "require": {
-                    "jane-php/open-api-runtime": "^7.11",
-                    "nyholm/psr7": "^1.8.1",
-                    "php": ">=8.4"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.58.1",
-                    "jane-php/open-api-3": "^7.11",
-                    "rector/rector": "^1.2.2",
-                    "symfony/http-client": "^6.4.8",
-                    "symfony/phpunit-bridge": "5.4 || ^6.4.8"
-                },
-                "time": "2026-07-30T08:17:06+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Cfc\\Erp\\Api\\": "generated/",
-                        "Cfc\\Erp\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Cfc\\Erp\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "support": {
-                    "source": "https://github.com/cfc-to/erp-php-client/tree/IT-1969/feature-update-organization-erp",
-                    "issues": "https://github.com/cfc-to/erp-php-client/issues"
-                }
-            },
-            {
-                "name": "cfc/erp-client",
                 "version": "dev-chore/remove-lint",
                 "version_normalized": "dev-chore/remove-lint",
                 "source": {
@@ -101,12 +53,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "2f074d522516c6e37c278a35da2b56669da9cfbd"
+                    "reference": "e86874b6d8ff009e6dd4a7aca2ff65eccd7707c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/2f074d522516c6e37c278a35da2b56669da9cfbd",
-                    "reference": "2f074d522516c6e37c278a35da2b56669da9cfbd",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/e86874b6d8ff009e6dd4a7aca2ff65eccd7707c3",
+                    "reference": "e86874b6d8ff009e6dd4a7aca2ff65eccd7707c3",
                     "shasum": ""
                 },
                 "require": {
@@ -121,7 +73,7 @@
                     "symfony/http-client": "^6.4.8",
                     "symfony/phpunit-bridge": "5.4 || ^6.4.8"
                 },
-                "time": "2026-07-23T15:30:24+00:00",
+                "time": "2026-07-30T08:18:28+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
