@@ -1,6 +1,6 @@
 {
     "name": "cfc/repositories",
-    "homepage": "https://packagist.cfc.to/",
+    "homepage": "https://packagist.df.cfcopies.com/",
     "repositories": [
         {
             "type": "vcs",

@@ -2,7 +2,7 @@
 
 Simple static Composer repository generator.
 
-[CFC Packagist repository](https://packagist.cfc.to/)
+[CFC Packagist repository](https://packagist.df.cfcopies.com/)
 
 ## Run from source
 
