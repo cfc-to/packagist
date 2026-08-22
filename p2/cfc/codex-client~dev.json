@@ -49,7 +49,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/codex-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/codex-php-client/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "cfc/codex-client",
@@ -98,7 +99,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/codex-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/codex-php-client/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

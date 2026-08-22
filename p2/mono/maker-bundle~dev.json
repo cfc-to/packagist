@@ -83,7 +83,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/MonoMakerBundle/tree/main",
                     "issues": "https://github.com/cfc-to/MonoMakerBundle/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }

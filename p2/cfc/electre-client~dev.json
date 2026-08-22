@@ -50,7 +50,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/electre-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
-                }
+                },
+                "abandoned": true
             },
             {
                 "name": "cfc/electre-client",
@@ -100,7 +101,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/electre-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
-                }
+                },
+                "abandoned": true
             }
         ]
     }
