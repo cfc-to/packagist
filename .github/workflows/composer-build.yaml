@@ -11,6 +11,16 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.DF_BOT_APP_ID }}
+          private-key: ${{ secrets.DF_BOT_PRIVATE_KEY }}
+          owner: cfc-to
+          repositories: cfc-theme,chorus-php-client,electre-php-client,erp-php-client,hermes-php-client,site-php-client,yellowbox-php-client
+          permission-contents: read
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -18,7 +28,7 @@ jobs:
 
       - name: Setup and build satis
         env:
-          AUTH_JSON: '{"github-oauth": {"github.com": "${{ secrets.COMPOSER_TOKEN }}"}}'
+          AUTH_JSON: '{"github-oauth": {"github.com": "${{ steps.app-token.outputs.token }}"}}'
         run: |
           if [ ! -d composer ]; then mkdir composer; fi
           echo "$AUTH_JSON" > composer/auth.json
