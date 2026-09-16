@@ -152,12 +152,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/chorus-php-client.git",
-                    "reference": "3a8389a00554fda22c9c9456d59a6c04b8f09caf"
+                    "reference": "a1f388407a0091c886e38678e7078c251ce18f99"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/chorus-php-client/zipball/3a8389a00554fda22c9c9456d59a6c04b8f09caf",
-                    "reference": "3a8389a00554fda22c9c9456d59a6c04b8f09caf",
+                    "url": "https://api.github.com/repos/cfc-to/chorus-php-client/zipball/a1f388407a0091c886e38678e7078c251ce18f99",
+                    "reference": "a1f388407a0091c886e38678e7078c251ce18f99",
                     "shasum": ""
                 },
                 "require": {
@@ -172,7 +172,7 @@
                     "symfony/http-client": "5.4 || ^6.0",
                     "symfony/phpunit-bridge": "5.4 || ^6.0"
                 },
-                "time": "2024-11-12T09:42:28+00:00",
+                "time": "2026-09-16T10:43:44+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

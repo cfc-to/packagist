@@ -1,21 +1,18 @@
 {
     "packages": [],
     "includes": {
-        "include/all$5d7a886e681c78828d9821c40dcc84ea5b94df78.json": {
-            "sha1": "5d7a886e681c78828d9821c40dcc84ea5b94df78"
+        "include/all$67f454b702aed409f04a4096e3beb325bd27f1de.json": {
+            "sha1": "67f454b702aed409f04a4096e3beb325bd27f1de"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "cfc/cfc-theme",
         "cfc/chorus-php-client",
-        "cfc/codex-client",
-        "cfc/directory-client",
         "cfc/electre-client",
         "cfc/erp-client",
         "cfc/hermes-client",
         "cfc/site-php-client",
-        "cfc/yellowbox-client",
-        "mono/maker-bundle"
+        "cfc/yellowbox-client"
     ]
 }

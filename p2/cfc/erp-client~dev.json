@@ -53,12 +53,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:cfc-to/erp-php-client.git",
-                    "reference": "e86874b6d8ff009e6dd4a7aca2ff65eccd7707c3"
+                    "reference": "7ed5c38bb7240a5848e890aef3a278612038faff"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/e86874b6d8ff009e6dd4a7aca2ff65eccd7707c3",
-                    "reference": "e86874b6d8ff009e6dd4a7aca2ff65eccd7707c3",
+                    "url": "https://api.github.com/repos/cfc-to/erp-php-client/zipball/7ed5c38bb7240a5848e890aef3a278612038faff",
+                    "reference": "7ed5c38bb7240a5848e890aef3a278612038faff",
                     "shasum": ""
                 },
                 "require": {
@@ -73,7 +73,7 @@
                     "symfony/http-client": "^6.4.8",
                     "symfony/phpunit-bridge": "5.4 || ^6.4.8"
                 },
-                "time": "2026-07-30T08:18:28+00:00",
+                "time": "2026-09-16T10:43:48+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
