@@ -49,7 +49,7 @@
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
                 },
-                "published-time": "2026-11-14T01:06:40+00:00"
+                "published-time": "2026-11-14T01:12:17+00:00"
             },
             {
                 "name": "cfc/yellowbox-client",
@@ -98,7 +98,7 @@
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
                 },
-                "published-time": "2026-11-14T01:06:40+00:00"
+                "published-time": "2026-11-14T01:12:17+00:00"
             },
             {
                 "name": "cfc/yellowbox-client",
@@ -147,7 +147,7 @@
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/upgrade-jane",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
                 },
-                "published-time": "2026-11-14T01:06:40+00:00"
+                "published-time": "2026-11-14T01:12:17+00:00"
             }
         ]
     }
