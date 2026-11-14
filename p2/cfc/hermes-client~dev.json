@@ -48,7 +48,7 @@
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/feat-generation-pipeline",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
                 },
-                "published-time": "2026-11-14T01:01:38+00:00"
+                "published-time": "2026-11-14T01:01:51+00:00"
             },
             {
                 "name": "cfc/hermes-client",
@@ -98,7 +98,7 @@
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
                 },
-                "published-time": "2026-11-14T01:01:38+00:00"
+                "published-time": "2026-11-14T01:01:51+00:00"
             },
             {
                 "name": "cfc/hermes-client",
@@ -147,7 +147,7 @@
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
                 },
-                "published-time": "2026-11-14T01:01:38+00:00"
+                "published-time": "2026-11-14T01:01:51+00:00"
             }
         ]
     }
