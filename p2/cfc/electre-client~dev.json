@@ -51,7 +51,8 @@
                     "source": "https://github.com/cfc-to/electre-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             {
                 "name": "cfc/electre-client",
@@ -102,7 +103,8 @@
                     "source": "https://github.com/cfc-to/electre-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         ]
     }

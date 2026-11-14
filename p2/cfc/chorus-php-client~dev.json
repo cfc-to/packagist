@@ -47,7 +47,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/chore/update_chorus_types",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             {
                 "name": "cfc/chorus-php-client",
@@ -95,7 +96,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/feat/first_generated",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             {
                 "name": "cfc/chorus-php-client",
@@ -143,7 +145,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/feat/update-chorus-api",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             {
                 "name": "cfc/chorus-php-client",
@@ -192,7 +195,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             {
                 "name": "cfc/chorus-php-client",
@@ -240,7 +244,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         ]
     }

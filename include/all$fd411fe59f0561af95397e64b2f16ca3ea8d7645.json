@@ -86,7 +86,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/chore/update-cfc-theme",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-229": {
                 "name": "cfc/cfc-theme",
@@ -172,7 +173,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-229",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-230": {
                 "name": "cfc/cfc-theme",
@@ -258,7 +260,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-230",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-232": {
                 "name": "cfc/cfc-theme",
@@ -344,7 +347,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-232",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-233": {
                 "name": "cfc/cfc-theme",
@@ -430,7 +434,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-233",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-235": {
                 "name": "cfc/cfc-theme",
@@ -516,7 +521,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-235",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-236": {
                 "name": "cfc/cfc-theme",
@@ -602,7 +608,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-236",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/CORP-237": {
                 "name": "cfc/cfc-theme",
@@ -688,7 +695,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/CORP-237",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/update_cfctheme_release_29": {
                 "name": "cfc/cfc-theme",
@@ -781,7 +789,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/feat/update_cfctheme_release_29",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-fix/pagination": {
                 "name": "cfc/cfc-theme",
@@ -876,7 +885,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/fix/pagination",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-fix/pagination_": {
                 "name": "cfc/cfc-theme",
@@ -971,7 +981,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/fix/pagination_",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-hotfix/text_input_zero": {
                 "name": "cfc/cfc-theme",
@@ -1058,7 +1069,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/hotfix/text_input_zero",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-main": {
                 "name": "cfc/cfc-theme",
@@ -1147,7 +1159,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/main",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-new-cfc-theme": {
                 "name": "cfc/cfc-theme",
@@ -1233,7 +1246,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/new-cfc-theme",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/cfc-theme",
@@ -1320,7 +1334,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-test-focus": {
                 "name": "cfc/cfc-theme",
@@ -1407,7 +1422,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/test-focus",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-update-digital-factory/v0.0.60": {
                 "name": "cfc/cfc-theme",
@@ -1494,7 +1510,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/update-digital-factory/v0.0.60",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-update-digital-factory/v0.0.67": {
                 "name": "cfc/cfc-theme",
@@ -1581,7 +1598,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/update-digital-factory/v0.0.67",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-update-digital-factory/v0.0.71": {
                 "name": "cfc/cfc-theme",
@@ -1669,7 +1687,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/update-digital-factory/v0.0.71",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-update-digital-factory/v0.0.72": {
                 "name": "cfc/cfc-theme",
@@ -1757,7 +1776,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/cfc-theme/tree/update-digital-factory/v0.0.72",
                     "issues": "https://github.com/cfc-to/cfc-theme/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         },
         "cfc/chorus-php-client": {
@@ -1807,7 +1827,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/chore/update_chorus_types",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/first_generated": {
                 "name": "cfc/chorus-php-client",
@@ -1855,7 +1876,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/feat/first_generated",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/update-chorus-api": {
                 "name": "cfc/chorus-php-client",
@@ -1903,7 +1925,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/feat/update-chorus-api",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-main": {
                 "name": "cfc/chorus-php-client",
@@ -1952,7 +1975,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/chorus-php-client",
@@ -2000,7 +2024,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/chorus-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/chorus-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         },
         "cfc/electre-client": {
@@ -2054,7 +2079,8 @@
                     "source": "https://github.com/cfc-to/electre-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/electre-client",
@@ -2105,7 +2131,8 @@
                     "source": "https://github.com/cfc-to/electre-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/electre-php-client/issues"
                 },
-                "abandoned": true
+                "abandoned": true,
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         },
         "cfc/erp-client": {
@@ -2152,7 +2179,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/erp-php-client/tree/chore/remove-lint",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-main": {
                 "name": "cfc/erp-client",
@@ -2201,7 +2229,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/erp-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/erp-client",
@@ -2249,7 +2278,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/erp-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         },
         "cfc/hermes-client": {
@@ -2299,7 +2329,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/feat-generation-pipeline",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-main": {
                 "name": "cfc/hermes-client",
@@ -2348,7 +2379,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/hermes-client",
@@ -2396,7 +2428,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/hermes-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/hermes-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         },
         "cfc/site-php-client": {
@@ -2446,7 +2479,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/chore/block_text",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-chore/change_faq": {
                 "name": "cfc/site-php-client",
@@ -2494,7 +2528,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/chore/change_faq",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/add_children_page": {
                 "name": "cfc/site-php-client",
@@ -2542,7 +2577,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_children_page",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/add_created_articles": {
                 "name": "cfc/site-php-client",
@@ -2590,7 +2626,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_created_articles",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/add_document": {
                 "name": "cfc/site-php-client",
@@ -2638,7 +2675,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_document",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/add_faq": {
                 "name": "cfc/site-php-client",
@@ -2686,7 +2724,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_faq",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/add_format_uri": {
                 "name": "cfc/site-php-client",
@@ -2734,7 +2773,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_format_uri",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/add_ressources": {
                 "name": "cfc/site-php-client",
@@ -2782,7 +2822,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_ressources",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-feat/first_generated": {
                 "name": "cfc/site-php-client",
@@ -2830,7 +2871,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/first_generated",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-fix/add_children_page": {
                 "name": "cfc/site-php-client",
@@ -2878,7 +2920,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/add_children_page",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-fix/composer": {
                 "name": "cfc/site-php-client",
@@ -2926,7 +2969,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/composer",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-fix/response_article": {
                 "name": "cfc/site-php-client",
@@ -2974,7 +3018,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/response_article",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-fix/ressource": {
                 "name": "cfc/site-php-client",
@@ -3022,7 +3067,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/ressource",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-main": {
                 "name": "cfc/site-php-client",
@@ -3071,7 +3117,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/site-php-client",
@@ -3119,7 +3166,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/site-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         },
         "cfc/yellowbox-client": {
@@ -3170,7 +3218,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-renovate/configure": {
                 "name": "cfc/yellowbox-client",
@@ -3218,7 +3267,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             },
             "dev-upgrade-jane": {
                 "name": "cfc/yellowbox-client",
@@ -3266,7 +3316,8 @@
                 "support": {
                     "source": "https://github.com/cfc-to/yellowbox-php-client/tree/upgrade-jane",
                     "issues": "https://github.com/cfc-to/yellowbox-php-client/issues"
-                }
+                },
+                "published-time": "2026-11-14T01:01:38+00:00"
             }
         }
     }
