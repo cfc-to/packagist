@@ -48,7 +48,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/chore/block_text",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -97,7 +97,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/chore/change_faq",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -146,7 +146,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_children_page",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -195,7 +195,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_created_articles",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -244,7 +244,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_document",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -293,7 +293,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_faq",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -342,7 +342,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_format_uri",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -391,7 +391,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/add_ressources",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -440,7 +440,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/feat/first_generated",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -489,7 +489,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/add_children_page",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -538,7 +538,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/composer",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -587,7 +587,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/response_article",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -636,7 +636,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/fix/ressource",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -686,7 +686,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/site-php-client",
@@ -735,7 +735,7 @@
                     "source": "https://github.com/cfc-to/site-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/site-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             }
         ]
     }

@@ -45,7 +45,7 @@
                     "source": "https://github.com/cfc-to/erp-php-client/tree/chore/remove-lint",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/erp-client",
@@ -95,7 +95,7 @@
                     "source": "https://github.com/cfc-to/erp-php-client/tree/main",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             },
             {
                 "name": "cfc/erp-client",
@@ -144,7 +144,7 @@
                     "source": "https://github.com/cfc-to/erp-php-client/tree/renovate/configure",
                     "issues": "https://github.com/cfc-to/erp-php-client/issues"
                 },
-                "published-time": "2026-11-21T01:06:33+00:00"
+                "published-time": "2026-11-21T01:06:52+00:00"
             }
         ]
     }
